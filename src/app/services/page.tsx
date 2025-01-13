@@ -12,18 +12,42 @@ import CardActionArea from "@mui/material/CardActionArea";
 const cards = [
   {
     id: 1,
-    title: "Plants",
-    description: "Plants are essential for all life.",
+    title: "Frontend Development",
+    description:
+      "Delivering responsive, intuitive, and visually stunning user interfaces.",
   },
   {
     id: 2,
-    title: "Animals",
-    description: "Animals are a part of nature.",
+    title: "Backend Development",
+    description:
+      "Building reliable, scalable, and efficient server-side solutions.",
   },
   {
     id: 3,
-    title: "Humans",
-    description: "Humans depend on plants and animals for survival.",
+    title: "Full-Stack Engineering",
+    description:
+      "End-to-end application development for a seamless user journey.",
+  },
+  {
+    id: 4,
+    title: "Code Audits & Optimization",
+    description:
+      "Improving the performance, readability, and maintainability of your codebase.",
+  },
+  {
+    id: 5,
+    title: "Custom Software Solutions",
+    description: "Tailored solutions to meet your unique business needs.",
+  },
+  {
+    id: 6,
+    title: "Technical Leadership & Mentorship",
+    description: "Building and guiding engineering teams to success",
+  },
+  {
+    id: 7,
+    title: "Consulting & Strategy",
+    description: "Building and guiding engineering teams to success",
   },
 ];
 
@@ -57,6 +81,7 @@ export default function Home() {
                   help:
                 </Typography>
                 <Box
+                  mt={8}
                   sx={{
                     width: "100%",
                     display: "grid",
