@@ -30,12 +30,15 @@ export default function Home() {
             <Grid size={{ xs: 12, md: 10 }}>
               <Box>
                 <Typography variant="h2" component="h1">
-                  Resume
+                  Services
                 </Typography>
 
                 <Typography variant="h6" component="h2">
-                  <br />
-                  WORK EXPERIENCE
+                  I specialize in designing and building high-performance,
+                  user-focused applications that scale effortlessly. My
+                  extensive experience ensures that your project is not only
+                  functional but also optimized for success. Here’s how I can
+                  help:
                 </Typography>
                 <Timeline position="alternate">
                   <TimelineItem>
@@ -44,9 +47,14 @@ export default function Home() {
                       <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                      {" "}
-                      Lead Software Engineer, Volume Media <br />
-                      SEP 2022 – OCT 2024
+                      <strong>Frontend Development</strong>
+                      <br /> <br />
+                      Delivering responsive, intuitive, and visually stunning
+                      user interfaces. <br />
+                      <br /> Expertise in React, Next.js, and TypeScript. <br />{" "}
+                      Accessible, mobile-first designs optimized for
+                      performance. <br /> Seamless user experiences across
+                      devices and browsers.
                     </TimelineContent>
                   </TimelineItem>
                   <TimelineItem>
@@ -55,9 +63,14 @@ export default function Home() {
                       <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                      {" "}
-                      Lead Software Engineer, CardCash.com <br />
-                      JUL 2015 – SEP 2022
+                      <strong>Backend Development</strong>
+                      <br /> <br />
+                      Building reliable, scalable, and efficient server-side
+                      solutions.
+                      <br />
+                      <br /> Proficient in Python, Django, and Node.js. <br />
+                      API development, integration, and optimization. <br />
+                      Focus on performance, security, and maintainability.
                     </TimelineContent>
                   </TimelineItem>
                   <TimelineItem>

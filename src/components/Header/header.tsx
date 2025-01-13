@@ -16,6 +16,7 @@ import Link from "next/link";
 const pages = [
   { name: "Home", uri: "/" },
   { name: "Resume", uri: "/resume" },
+  { name: "Services", uri: "/services" },
 ];
 
 function Header() {
