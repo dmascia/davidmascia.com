@@ -16,7 +16,8 @@ export default function Home() {
     <>
       <Layout>
         <>
-          <Container maxWidth="sm">
+          {/* <Container maxWidth="m"> */}
+          <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
               <Grid size={{ xs: 6, md: 8 }}>
                 <p>xs=6 md=8</p>
@@ -31,7 +32,8 @@ export default function Home() {
                 <p>xs=6 md=8</p>
               </Grid>
             </Grid>
-          </Container>
+          </Box>
+          {/* </Container> */}
           <Box sx={{ width: 500 }}>
             <BottomNavigation
               showLabels
