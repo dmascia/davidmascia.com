@@ -16,20 +16,27 @@ export default function Home() {
     <>
       <Layout>
         <>
-          <Grid container spacing={2}>
-            <Grid size={{ xs: 6, md: 8 }}>
-              <p>xs=6 md=8</p>
+          <Box
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            minHeight="100vh"
+          >
+            <Grid container spacing={2}>
+              <Grid size={{ xs: 6, md: 8 }}>
+                <p>xs=6 md=8</p>
+              </Grid>
+              <Grid size={{ xs: 6, md: 4 }}>
+                <p>xs=6 md=4</p>
+              </Grid>
+              <Grid size={{ xs: 6, md: 4 }}>
+                <p>xs=6 md=4</p>
+              </Grid>
+              <Grid size={{ xs: 6, md: 8 }}>
+                <p>xs=6 md=8</p>
+              </Grid>
             </Grid>
-            <Grid size={{ xs: 6, md: 4 }}>
-              <p>xs=6 md=4</p>
-            </Grid>
-            <Grid size={{ xs: 6, md: 4 }}>
-              <p>xs=6 md=4</p>
-            </Grid>
-            <Grid size={{ xs: 6, md: 8 }}>
-              <p>xs=6 md=8</p>
-            </Grid>
-          </Grid>
+          </Box>
           {/* </Container> */}
           <Box sx={{ width: 500 }}>
             <BottomNavigation
