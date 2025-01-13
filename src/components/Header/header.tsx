@@ -29,7 +29,7 @@ function Header() {
 
   return (
     <AppBar position="static">
-      <Container maxWidth="xl" mb="4">
+      <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ display: { xs: "none", md: "flex" }, mr: 2 }}>
             <Image
