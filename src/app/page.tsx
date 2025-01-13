@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import Link from "next/link";
+import LetsConnect from "@/components/LetsConnect/";
 
 export default function Home() {
   return (
@@ -60,20 +60,7 @@ export default function Home() {
                 </Typography>
               </Box>
               <Box pt={4}>
-                <Typography variant="h6" component="h4">
-                  Let’s build something amazing together!
-                </Typography>
-                <Stack direction="row" spacing={2}>
-                  <Link href="https://www.linkedin.com/in/davidmascia/">
-                    <LinkedInIcon color="primary" fontSize="large" />
-                  </Link>
-                  <Link href="https://github.com/dmascia">
-                    <GitHubIcon fontSize="large" sx={{ color: grey[900] }} />
-                  </Link>
-                  <Link href="https://www.youtube.com/@davidmasciatutorials">
-                    <YouTubeIcon sx={{ color: red[500] }} fontSize="large" />
-                  </Link>
-                </Stack>
+                <LetsConnect />
               </Box>
             </Grid>
             <Grid size={{ xs: 0, md: 4 }}>

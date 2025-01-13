@@ -4,13 +4,7 @@ import Grid from "@mui/material/Grid2";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Image from "next/image";
-import Stack from "@mui/material/Stack";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import { red, grey } from "@mui/material/colors";
-import Link from "next/link";
+import LetsConnect from "@/components/LetsConnect/";
 
 export default function Home() {
   return (
@@ -27,58 +21,80 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <Grid size={{ xs: 12, md: 6 }}>
+            <Grid size={{ xs: 12, md: 10 }}>
               <Box>
-                <Typography variant="h1" component="h1">
-                  Hi, I’m ...
-                </Typography>
-                <Typography variant="h1" component="h1">
+                <Typography variant="h6" component="h1">
                   David Mascia
                 </Typography>
+
                 <Typography variant="h6" component="h2">
-                  Crafting Scalable Solutions, Driving Innovation, Delivering
-                  Impact.
+                  PROFESSIONAL SUMMARY
                 </Typography>
                 <Typography variant="p" component="p">
+                  I am a seasoned Lead Software Engineer with a proven track
+                  record of improving user engagement, performance, and
+                  operational efficiency. At Volume, I boosted engagement by 85%
+                  and frontend performance by 75% through optimized UI/UX with
+                  Next.js and TypeScript and backend improvements with Python
+                  and Django. At CardCash, I spearheaded the transition to
+                  microservices, achieving a 4x user growth and an 80% revenue
+                  increase. Passionate about building scalable, user-centric
+                  applications, I excel at driving innovation, mentoring teams,
+                  and delivering measurable results.
+                </Typography>
+                <Typography variant="h6" component="h2">
                   <br />
-                  Hi, I’m David Mascia, a seasoned Software Engineer from New
-                  Jersey, with over 20 years of hands-on experience creating
-                  impactful, scalable, and user-centric applications.
-                  <br /> <br />
-                  Throughout my career, I’ve delivered measurable results in
-                  performance optimization, user engagement, and operational
-                  efficiency. At Volume Media, I enhanced user engagement by 85%
-                  and improved frontend performance by 75% with Next.js,
-                  TypeScript, Python, and Django. At CardCash, I successfully
-                  led the migration to a microservices architecture, driving a
-                  4x growth in users and an 80% revenue boost.
-                  <br /> <br />
-                  My expertise spans modern web technologies, including React,
-                  Redux, Django, and Docker, paired with a deep passion for
-                  fostering team collaboration and mentoring the next generation
-                  of developers. <br /> <br />
-                  Explore my website to see the projects I’ve brought to life
-                  and learn more about my journey in software engineering.
-                  Whether it’s crafting a seamless user experience or driving
-                  architectural innovation, I’m committed to delivering
-                  solutions that make an impact.
+                  WORK EXPERIENCE
+                </Typography>
+                <Typography variant="p" component="p">
+                  Lead Software Engineer, Volume Media SEP 2022 – OCT 2024
+                  <br />
+                  Lead Software Engineer, CardCash.com JUL 2015 – SEP 2022
+                  <br />
+                  Software Engineer, Scivantage SEP 2012 – APR 2015
+                  <br />
+                  Software Engineer (Contract), Digital Music Pool MAY 2008 –
+                  JUL 2012
+                  <br />
+                  Software Engineer, Focus Camera JUL 2005 – APR 2008
+                  <br />
+                </Typography>
+                <Typography variant="h6" component="h2">
+                  <br />
+                  SKILLS
+                </Typography>
+                <Typography variant="p" component="p">
+                  Languages: JavaScript, Python3, TypeScript, HTML5, CSS3
+                  <br />
+                  Technologies: Django, Next.js, SQL, Postgres, React, Redux,
+                  Storybook, Jest, ESLint, Webpack, Docker, Git
+                  <br />
+                </Typography>
+                <Typography variant="h6" component="h2">
+                  <br />
+                  EDUCATION
+                </Typography>
+                <Typography variant="p" component="p">
+                  Information Technology, Bachelor of Science, Capella
+                  University DEC 2012
+                  <br />
+                </Typography>
+                <Typography variant="h6" component="h2">
+                  <br />
+                  AWARDS AND ACCOLADES
+                </Typography>
+                <Typography variant="p" component="p">
+                  Project MVP for Wealth Management during the TIAA
+                  implementation at Scivantage. 2014
+                  <br />
+                  “Among the Best” recognition (Highest Level) in Performance
+                  Review at CardCash 2017-2022
+                  <br />
                 </Typography>
               </Box>
+
               <Box pt={4}>
-                <Typography variant="h6" component="h4">
-                  Let’s build something amazing together!
-                </Typography>
-                <Stack direction="row" spacing={2}>
-                  <Link href="https://www.linkedin.com/in/davidmascia/">
-                    <LinkedInIcon color="primary" fontSize="large" />
-                  </Link>
-                  <Link href="https://github.com/dmascia">
-                    <GitHubIcon fontSize="large" sx={{ color: grey[900] }} />
-                  </Link>
-                  <Link href="https://www.youtube.com/@davidmasciatutorials">
-                    <YouTubeIcon sx={{ color: red[500] }} fontSize="large" />
-                  </Link>
-                </Stack>
+                <LetsConnect />
               </Box>
             </Grid>
           </Grid>
