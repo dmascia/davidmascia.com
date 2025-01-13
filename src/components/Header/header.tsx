@@ -13,7 +13,10 @@ import MenuItem from "@mui/material/MenuItem";
 import Image from "next/image";
 import Link from "next/link";
 
-const pages = [{ name: "Home", uri: "/test" }];
+const pages = [
+  { name: "Home", uri: "/" },
+  { name: "Resume", uri: "/resume" },
+];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
