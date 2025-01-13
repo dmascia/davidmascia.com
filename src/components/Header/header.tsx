@@ -10,7 +10,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import Image from "next/image";
 
 const pages = ["Products", "Pricing", "Blog"];
@@ -32,16 +31,18 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Image
-            src={
-              "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_200_200/B4EZRNjlKuGwAY-/0/1736467961905?e=1742428800&v=beta&t=mpEMTbR1XMwL-FbpWN64zazmsIQe1htqZVbrPcdBCd8"
-            }
-            alt="David Mascia"
-            sizes="100vw"
-            width="70"
-            height="70"
-            style={{ borderRadius: "4px" }}
-          />
+          <Box sx={{ display: { xs: "none", md: "flex" }, mr: 2 }}>
+            <Image
+              src={
+                "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_200_200/B4EZRNjlKuGwAY-/0/1736467961905?e=1742428800&v=beta&t=mpEMTbR1XMwL-FbpWN64zazmsIQe1htqZVbrPcdBCd8"
+              }
+              alt="David Mascia"
+              sizes="100vw"
+              width="50"
+              height="50"
+              style={{ borderRadius: "50px" }}
+            />
+          </Box>
           <Typography
             variant="h6"
             noWrap
@@ -59,7 +60,6 @@ function Header() {
           >
             David Mascia
           </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -94,7 +94,18 @@ function Header() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <Box sx={{ display: { xs: "flex", md: "none" }, mr: 2 }}>
+            <Image
+              src={
+                "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_200_200/B4EZRNjlKuGwAY-/0/1736467961905?e=1742428800&v=beta&t=mpEMTbR1XMwL-FbpWN64zazmsIQe1htqZVbrPcdBCd8"
+              }
+              alt="David Mascia"
+              sizes="100vw"
+              width="40"
+              height="40"
+              style={{ borderRadius: "50px" }}
+            />
+          </Box>
           <Typography
             variant="h5"
             noWrap
