@@ -19,9 +19,8 @@ export default function Home() {
         <Box mt={8}>
           <Grid
             container
-            spacing={6}
+            spacing={3}
             columns={12}
-            direction="row"
             sx={{
               justifyContent: "center",
               alignItems: "center",
