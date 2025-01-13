@@ -47,7 +47,8 @@ const cards = [
   {
     id: 7,
     title: "Consulting & Strategy",
-    description: "Building and guiding engineering teams to success",
+    description:
+      "Building and guiding engineering teams to success. Scalable solutions aligned with business goals.	Modernizing architectures for long-term growth. Technical guidance for startups and enterprises alike.",
   },
 ];
 
@@ -86,7 +87,7 @@ export default function Home() {
                     width: "100%",
                     display: "grid",
                     gridTemplateColumns:
-                      "repeat(auto-fill, minmax(min(200px, 100%), 1fr))",
+                      "repeat(auto-fill, minmax(min(400px, 100%), 1fr))",
                     gap: 2,
                   }}
                 >
