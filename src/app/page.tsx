@@ -16,12 +16,7 @@ export default function Home() {
     <>
       <Layout>
         <>
-          <Box
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-            minHeight="100vh"
-          >
+          <Box display="flex" justifyContent="center" minWidth="100vw">
             <Grid container spacing={2}>
               <Grid size={{ xs: 6, md: 8 }}>
                 <p>xs=6 md=8</p>
