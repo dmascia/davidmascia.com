@@ -43,7 +43,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <Grid size={{ xs: 12, md: 10 }}>
+            <Grid size="12">
               <Box>
                 <Typography variant="h2" component="h1">
                   Services
