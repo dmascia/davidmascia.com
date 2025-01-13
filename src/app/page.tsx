@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import Layout from "@/components/Layout/layout";
 import Grid from "@mui/material/Grid2";
 import Container from "@mui/material/Container";
@@ -10,7 +9,8 @@ import Stack from "@mui/material/Stack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import { red } from "@mui/material/colors";
+import { red, black } from "@mui/material/colors";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -58,15 +58,15 @@ export default function Home() {
                   Let's Connect!
                 </Typography>
                 <Stack direction="row" spacing={2}>
-                  <p>
-                    <LinkedInIcon color="primary" />
-                  </p>
-                  <p>
-                    <GitHubIcon />
-                  </p>
-                  <p>
-                    <YouTubeIcon sx={{ color: red[500] }} />
-                  </p>
+                  <Link href="https://stackoverflow.com/" passHref={true}>
+                    <LinkedInIcon color="primary" fontSize="large" />
+                  </Link>
+                  <Link href="https://stackoverflow.com/" passHref={true}>
+                    <GitHubIcon fontSize="large" sx={{ color: black[500] }} />
+                  </Link>
+                  <Link href="https://stackoverflow.com/" passHref={true}>
+                    <YouTubeIcon sx={{ color: red[500] }} fontSize="large" />
+                  </Link>
                 </Stack>
               </Box>
             </Grid>
