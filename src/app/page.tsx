@@ -19,7 +19,9 @@ export default function Home() {
           <Box display="flex" justifyContent="center" minWidth="100vw">
             <Grid container spacing={2}>
               <Grid size={{ xs: 6, md: 8 }}>
-                <p>xs=6 md=8</p>
+                <Typography variant="h1" component="h2">
+                  h1. Heading
+                </Typography>
               </Grid>
               <Grid size={{ xs: 6, md: 4 }}>
                 <p>xs=6 md=4</p>
