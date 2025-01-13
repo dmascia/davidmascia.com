@@ -16,10 +16,16 @@ export default function Home() {
     <>
       <Layout>
         <>
-          <Box display="flex" justifyContent="center" minWidth="100vw">
+          <Box
+            display="flex"
+            justifyContent="center"
+            minWidth="100vw"
+            m={8}
+            pt={3}
+          >
             <Grid container spacing={2}>
               <Grid>
-                <Typography variant="h1" component="h3">
+                <Typography variant="h1" component="h2">
                   Hi, I’m David Mascia.
                 </Typography>
               </Grid>
