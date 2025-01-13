@@ -39,14 +39,32 @@ export default function Home() {
                   Software Engineer | Problem Solver
                 </Typography>
                 <Typography variant="p" component="p">
-                  Empowering Growth Through Scalable Applications and
-                  Exceptional User Experiences: 20+ Years of Software
-                  Engineering Excellence
+                  Hi, I’m David Mascia, a seasoned Software Engineer from New
+                  Jersey, with over 20 years of hands-on experience creating
+                  impactful, scalable, and user-centric applications.
+                  <br /> <br />
+                  Throughout my career, I’ve delivered measurable results in
+                  performance optimization, user engagement, and operational
+                  efficiency. At Volume Media, I enhanced user engagement by 85%
+                  and improved frontend performance by 75% with Next.js,
+                  TypeScript, Python, and Django. At CardCash, I successfully
+                  led the migration to a microservices architecture, driving a
+                  4x growth in users and an 80% revenue boost.
+                  <br /> <br />
+                  My expertise spans modern web technologies, including React,
+                  Redux, Django, and Docker, paired with a deep passion for
+                  fostering team collaboration and mentoring the next generation
+                  of developers. <br /> <br />
+                  Explore my website to see the projects I’ve brought to life
+                  and learn more about my journey in software engineering.
+                  Whether it’s crafting a seamless user experience or driving
+                  architectural innovation, I’m committed to delivering
+                  solutions that make an impact.
                 </Typography>
               </Box>
               <Box pt={4}>
                 <Typography variant="h6" component="h4">
-                  Let's Connect!
+                  Let’s build something amazing together!
                 </Typography>
                 <Stack direction="row" spacing={2}>
                   <Link href="https://www.linkedin.com/in/davidmascia/">
