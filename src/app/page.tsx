@@ -18,9 +18,9 @@ export default function Home() {
         <>
           <Box display="flex" justifyContent="center" minWidth="100vw">
             <Grid container spacing={2}>
-              <Grid size={{ xs: 6, md: 8 }}>
-                <Typography variant="h1" component="h2">
-                  h1. Heading
+              <Grid>
+                <Typography variant="h1" component="h3">
+                  Hi, I’m David Mascia.
                 </Typography>
               </Grid>
               <Grid size={{ xs: 6, md: 4 }}>
