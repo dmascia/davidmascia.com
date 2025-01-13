@@ -94,9 +94,15 @@ function Header() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography sx={{ textAlign: "center" }}>
-                    {page.name}
-                  </Typography>
+                  <Link
+                    href={page.uri}
+                    style={{ textDecoration: "none" }}
+                    key={page.name}
+                  >
+                    <Typography sx={{ textAlign: "center" }}>
+                      {page.name}
+                    </Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>

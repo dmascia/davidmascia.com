@@ -17,6 +17,9 @@ export default function Home() {
     <Layout>
       <Container>
         <Box mt={8}>
+          <Typography variant="h2" component="h1">
+            Resume
+          </Typography>
           <Grid
             container
             spacing={3}
@@ -28,10 +31,6 @@ export default function Home() {
           >
             <Grid size="12">
               <Box>
-                <Typography variant="h2" component="h1">
-                  Resume
-                </Typography>
-
                 <Typography variant="h6" component="h2">
                   <br />
                   WORK EXPERIENCE
@@ -210,12 +209,11 @@ export default function Home() {
                   </TimelineItem>
                 </Timeline>
               </Box>
-
-              <Box pt={4}>
-                <LetsConnect />
-              </Box>
             </Grid>
           </Grid>
+          <Box pt={4}>
+            <LetsConnect />
+          </Box>
         </Box>
       </Container>
     </Layout>
