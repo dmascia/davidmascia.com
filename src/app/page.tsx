@@ -23,28 +23,36 @@ export default function Home() {
             }}
           >
             <Grid size={{ xs: 12, md: 6 }}>
-              <Typography variant="h1" component="h1">
-                Hi, I’m ...
-              </Typography>
-              <Typography variant="h1" component="h1">
-                David Mascia
-              </Typography>
-              <Typography variant="h6" component="h2">
-                Software Engineer | Problem Solver
-              </Typography>
-              <Typography variant="p" component="p">
-                I am an experienced Software Engineer with over 20 years of
-                hands-on expertise and a proven history of enhancing user
-                engagement, optimizing performance, and improving operational
-                efficiency. At Volume, I increased user engagement by 85% and
-                improved frontend performance by 75% by refining the UI/UX with
-                Next.js and TypeScript, alongside backend enhancements using
-                Python and Django. At CardCash, I led the migration to a
-                microservices architecture, driving a 4x growth in users and an
-                80% revenue boost. Committed to developing scalable,
-                user-focused applications, I thrive on fostering innovation,
-                mentoring teams, and delivering impactful, measurable outcomes.
-              </Typography>
+              <Box>
+                <Typography variant="h1" component="h1">
+                  Hi, I’m ...
+                </Typography>
+                <Typography variant="h1" component="h1">
+                  David Mascia
+                </Typography>
+                <Typography variant="h6" component="h2">
+                  Software Engineer | Problem Solver
+                </Typography>
+                <Typography variant="p" component="p">
+                  I am an experienced Software Engineer with over 20 years of
+                  hands-on expertise and a proven history of enhancing user
+                  engagement, optimizing performance, and improving operational
+                  efficiency. At Volume, I increased user engagement by 85% and
+                  improved frontend performance by 75% by refining the UI/UX
+                  with Next.js and TypeScript, alongside backend enhancements
+                  using Python and Django. At CardCash, I led the migration to a
+                  microservices architecture, driving a 4x growth in users and
+                  an 80% revenue boost. Committed to developing scalable,
+                  user-focused applications, I thrive on fostering innovation,
+                  mentoring teams, and delivering impactful, measurable
+                  outcomes.
+                </Typography>
+              </Box>
+              <Box pt={4}>
+                <Typography variant="h6" component="h4">
+                  Let's Connect!
+                </Typography>
+              </Box>
             </Grid>
             <Grid size={{ xs: 0, md: 4 }}>
               <Box sx={{ display: { xs: "none", md: "flex" } }}>
