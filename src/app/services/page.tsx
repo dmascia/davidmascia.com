@@ -9,6 +9,8 @@ import LetsConnect from "@/components/LetsConnect/";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardActionArea from "@mui/material/CardActionArea";
+import Link from "next/link";
+
 const cards = [
   {
     id: 1,
@@ -47,8 +49,7 @@ const cards = [
   {
     id: 7,
     title: "Consulting & Strategy",
-    description:
-      "Building and guiding engineering teams to success. Scalable solutions aligned with business goals.	Modernizing architectures for long-term growth. Technical guidance for startups and enterprises alike.",
+    description: "Building and guiding engineering teams to success. ",
   },
 ];
 
@@ -92,7 +93,7 @@ export default function Home() {
                   }}
                 >
                   {cards.map((card, index) => (
-                    <Card>
+                    <Card key={card.id}>
                       <CardActionArea
                         onClick={() => setSelectedCard(index)}
                         data-active={selectedCard === index ? "" : undefined}
@@ -118,6 +119,14 @@ export default function Home() {
                     </Card>
                   ))}
                 </Box>
+                <Typography variant="h6" component="h2" mt={8}>
+                  Contact me today on{" "}
+                  <Link href="https://www.linkedin.com/in/davidmascia/">
+                    Linkedin
+                  </Link>{" "}
+                  to discuss your project or explore how I can bring value to
+                  your team.
+                </Typography>
               </Box>
 
               <Box pt={4}>
