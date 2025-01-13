@@ -39,18 +39,9 @@ export default function Home() {
                   Software Engineer | Problem Solver
                 </Typography>
                 <Typography variant="p" component="p">
-                  I am an experienced Software Engineer with over 20 years of
-                  hands-on expertise and a proven history of enhancing user
-                  engagement, optimizing performance, and improving operational
-                  efficiency. At Volume, I increased user engagement by 85% and
-                  improved frontend performance by 75% by refining the UI/UX
-                  with Next.js and TypeScript, alongside backend enhancements
-                  using Python and Django. At CardCash, I led the migration to a
-                  microservices architecture, driving a 4x growth in users and
-                  an 80% revenue boost. Committed to developing scalable,
-                  user-focused applications, I thrive on fostering innovation,
-                  mentoring teams, and delivering impactful, measurable
-                  outcomes.
+                  Empowering Growth Through Scalable Applications and
+                  Exceptional User Experiences: 20+ Years of Software
+                  Engineering Excellence
                 </Typography>
               </Box>
               <Box pt={4}>
