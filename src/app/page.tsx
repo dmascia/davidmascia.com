@@ -6,6 +6,8 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
+import Stack from "@mui/material/Stack";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function Home() {
   return (
@@ -52,6 +54,13 @@ export default function Home() {
                 <Typography variant="h6" component="h4">
                   Let's Connect!
                 </Typography>
+                <Stack direction="row" spacing={2}>
+                  <p>
+                    <LinkedInIcon />
+                  </p>
+                  <p>p 2</p>
+                  <p>p 3</p>
+                </Stack>
               </Box>
             </Grid>
             <Grid size={{ xs: 0, md: 4 }}>
