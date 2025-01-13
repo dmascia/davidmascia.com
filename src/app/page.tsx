@@ -9,7 +9,7 @@ import Stack from "@mui/material/Stack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import { red } from "@mui/material/colors";
+import { red, grey } from "@mui/material/colors";
 import Link from "next/link";
 
 export default function Home() {
@@ -58,13 +58,13 @@ export default function Home() {
                   Let's Connect!
                 </Typography>
                 <Stack direction="row" spacing={2}>
-                  <Link href="https://stackoverflow.com/" passHref={true}>
+                  <Link href="https://www.linkedin.com/in/davidmascia/">
                     <LinkedInIcon color="primary" fontSize="large" />
                   </Link>
-                  <Link href="https://stackoverflow.com/" passHref={true}>
-                    <GitHubIcon fontSize="large" color="disabled" />
+                  <Link href="https://github.com/dmascia">
+                    <GitHubIcon fontSize="large" sx={{ color: grey[900] }} />
                   </Link>
-                  <Link href="https://stackoverflow.com/" passHref={true}>
+                  <Link href="https://www.youtube.com/@davidmasciatutorials">
                     <YouTubeIcon sx={{ color: red[500] }} fontSize="large" />
                   </Link>
                 </Stack>
