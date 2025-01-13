@@ -9,7 +9,7 @@ import Stack from "@mui/material/Stack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import { red, black } from "@mui/material/colors";
+import { red } from "@mui/material/colors";
 import Link from "next/link";
 
 export default function Home() {
@@ -62,7 +62,7 @@ export default function Home() {
                     <LinkedInIcon color="primary" fontSize="large" />
                   </Link>
                   <Link href="https://stackoverflow.com/" passHref={true}>
-                    <GitHubIcon fontSize="large" sx={{ color: black[500] }} />
+                    <GitHubIcon fontSize="large" color="disabled" />
                   </Link>
                   <Link href="https://stackoverflow.com/" passHref={true}>
                     <YouTubeIcon sx={{ color: red[500] }} fontSize="large" />
