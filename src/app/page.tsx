@@ -1,14 +1,14 @@
 import Layout from "@/components/Layout/layout";
 import Paper from "@mui/material/Paper";
-import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
 
 export default function Home() {
   return (
     <>
       <Layout>
-        <Container maxWidth="xl">
-          <Paper elevation={3}>rff</Paper>
-        </Container>
+        <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          wcdcfd
+        </Box>
       </Layout>
     </>
   );
