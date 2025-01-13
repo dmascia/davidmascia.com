@@ -8,13 +8,16 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import RestoreIcon from "@mui/icons-material/Restore";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import Typography from '@mui/material/Typography';
+import Typography from "@mui/material/Typography";
 export default function Home() {
   const [value, setValue] = useState(0);
   return (
     <>
       <Layout>
         <>
+          <Container maxWidth="sm">
+            <Box sx={{ height: "100vh" }}> </Box>
+          </Container>
           <Box sx={{ width: 500 }}>
             <BottomNavigation
               showLabels
