@@ -25,7 +25,36 @@ export default function Home() {
             m={8}
             pt={3}
           >
-            <Grid container spacing={2}>
+            <Grid
+              container
+              rowSpacing={1}
+              columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+            >
+              <Grid size={6}>
+                <Typography variant="h1" component="h3">
+                  Hi, I’m David Mascia.
+                </Typography>
+              </Grid>
+              <Grid size={6}>
+                <Image
+                  src={
+                    "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_800_800/B4EZRNjlKuGwAc-/0/1736467961931?e=1742428800&v=beta&t=64e_qMWpJ4wzltQqKS2cb-jEyGgksRGP-KMjv2R_XKI"
+                  }
+                  alt="David Mascia"
+                  sizes="100vw"
+                  width="400"
+                  height="400"
+                  style={{ borderRadius: "50px" }}
+                />
+              </Grid>
+              <Grid size={6}>
+                <p>3</p>
+              </Grid>
+              <Grid size={6}>
+                <p>4</p>
+              </Grid>
+            </Grid>
+            {/* <Grid container spacing={2}>
               <Grid ize={{ xs: 6, md: 8 }}>
                 <Typography variant="h1" component="h3">
                   Hi, I’m David Mascia.
@@ -51,7 +80,7 @@ export default function Home() {
               <Grid size={{ xs: 6, md: 8 }}>
                 <p>xs=6 md=8</p>
               </Grid>
-            </Grid>
+            </Grid> */}
           </Box>
           {/* </Container> */}
           <Box sx={{ width: 500 }}>
