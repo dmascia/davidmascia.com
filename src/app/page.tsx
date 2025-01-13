@@ -8,7 +8,7 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import RestoreIcon from "@mui/icons-material/Restore";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-
+import Typography from '@mui/material/Typography';
 export default function Home() {
   const [value, setValue] = useState(0);
   return (
