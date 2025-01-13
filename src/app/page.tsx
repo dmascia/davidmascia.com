@@ -8,6 +8,8 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import Stack from "@mui/material/Stack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 export default function Home() {
   return (
@@ -56,10 +58,14 @@ export default function Home() {
                 </Typography>
                 <Stack direction="row" spacing={2}>
                   <p>
-                    <LinkedInIcon />
+                    <LinkedInIcon color="primary" />
                   </p>
-                  <p>p 2</p>
-                  <p>p 3</p>
+                  <p>
+                    <GitHubIcon />
+                  </p>
+                  <p>
+                    <YouTubeIcon color="danger" />
+                  </p>
                 </Stack>
               </Box>
             </Grid>
