@@ -11,8 +11,9 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Image from "next/image";
+import Link from "next/link";
 
-const pages = [{ name: "Home", uri: "/" }];
+const pages = [{ name: "Home", uri: "/test" }];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -128,13 +129,18 @@ function Header() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
-              <Button
+              <Link
+                href={page.uri}
+                style={{ textDecoration: "none" }}
                 key={page.name}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page.name}
-              </Button>
+                <Button
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  {page.name}
+                </Button>
+              </Link>
             ))}
           </Box>
         </Toolbar>

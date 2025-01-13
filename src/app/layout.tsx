@@ -1,5 +1,5 @@
 "use client";
-import type { Metadata } from "next";
+
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
