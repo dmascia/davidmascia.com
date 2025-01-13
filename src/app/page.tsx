@@ -25,7 +25,7 @@ export default function Home() {
           >
             <Grid container spacing={2}>
               <Grid>
-                <Typography variant="h1" component="h2">
+                <Typography variant="h1" component="h3">
                   Hi, I’m David Mascia.
                 </Typography>
               </Grid>
