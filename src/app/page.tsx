@@ -36,9 +36,11 @@ export default function Home() {
                   David Mascia
                 </Typography>
                 <Typography variant="h6" component="h2">
-                  Software Engineer | Problem Solver
+                  Crafting Scalable Solutions, Driving Innovation, Delivering
+                  Impact.
                 </Typography>
                 <Typography variant="p" component="p">
+                  <br />
                   Hi, I’m David Mascia, a seasoned Software Engineer from New
                   Jersey, with over 20 years of hands-on experience creating
                   impactful, scalable, and user-centric applications.
