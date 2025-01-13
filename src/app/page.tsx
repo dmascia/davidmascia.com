@@ -10,6 +10,7 @@ import Stack from "@mui/material/Stack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import { red } from "@mui/material/colors";
 
 export default function Home() {
   return (
@@ -64,7 +65,7 @@ export default function Home() {
                     <GitHubIcon />
                   </p>
                   <p>
-                    <YouTubeIcon color="danger" />
+                    <YouTubeIcon sx={{ color: red[500] }} />
                   </p>
                 </Stack>
               </Box>
