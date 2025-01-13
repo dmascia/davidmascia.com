@@ -11,6 +11,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import Image from "next/image";
 
 const pages = ["Products", "Pricing", "Blog"];
 
@@ -31,7 +32,16 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <Image
+            src={
+              "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_200_200/B4EZRNjlKuGwAY-/0/1736467961905?e=1742428800&v=beta&t=mpEMTbR1XMwL-FbpWN64zazmsIQe1htqZVbrPcdBCd8"
+            }
+            alt="David Mascia"
+            sizes="100vw"
+            width="70"
+            height="70"
+            style={{ borderRadius: "4px" }}
+          />
           <Typography
             variant="h6"
             noWrap
