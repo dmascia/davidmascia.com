@@ -5,12 +5,7 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import LetsConnect from "@/components/LetsConnect/";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,7 +17,9 @@ export default function Home() {
           </Typography>
           <Grid container spacing={3} columns={12}>
             <Grid size="12">
-              <Box>
+              <Box
+                sx={{ display: "flex", gap: "15px", flexDirection: "column" }}
+              >
                 <Typography variant="p" component="p">
                   Next.js is a powerful React framework for building scalable,
                   production-ready web applications. With built-in features like
@@ -39,10 +36,27 @@ export default function Home() {
                 </Typography>
                 <Typography variant="p" component="p">
                   Before starting, ensure you have the following tools installed
-                  on your system:<br/> 1. Node.js: Download and install the latest
-                  stable version from Node.js. <be2. npm or Yarn: npm comes with
-                  Node.js by default, or you can install Yarn. 3. Code Editor:
-                  Use a code editor like Visual Studio Code.
+                  on your system:
+                  <br /> 1. Node.js: Download and install the latest stable
+                  version from{" "}
+                  <Link href="https://nodejs.org/en">Node.js.</Link> <br />
+                  2. npm or Yarn: npm comes with Node.js by default, or you can
+                  install <Link href="https://yarnpkg.com/">Yarn</Link>. <br />
+                  3. Code Editor: Use a code editor like{" "}
+                  <Link href="https://code.visualstudio.com/">
+                    Visual Studio Code
+                  </Link>
+                  .
+                </Typography>
+                <Typography variant="h6" component="p">
+                  Step 2: Setting Up Your Next.js App
+                </Typography>
+                <Typography variant="p" component="p">
+                  Next.js provides a CLI tool to create a new app quickly.
+                  Follow these steps:
+                </Typography>
+                <Typography variant="h7" component="p">
+                1. Create a New Project
                 </Typography>
               </Box>
             </Grid>
