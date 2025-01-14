@@ -12,7 +12,10 @@ import CardActionArea from "@mui/material/CardActionArea";
 import Link from "next/link";
 import CardMedia from "@mui/material/CardMedia";
 import Image from "next/image";
-import blossm1 from "../imgs/image-7.png";
+import blossm1 from "./blossm/image2.png";
+import blossm2 from "./blossm/image4.png";
+import blossm3 from "./blossm/image1.png";
+import blossm4 from "./blossm/image5.png";
 
 export default function Home() {
   return (
@@ -59,19 +62,13 @@ export default function Home() {
                   width: "100%",
                   display: "grid",
                   gridTemplateColumns:
-                    "repeat(auto-fill, minmax(min(400px, 100%), 1fr))",
+                    "repeat(auto-fill, minmax(min(600px, 100%), 1fr))",
                   gap: 2,
                 }}
               >
                 <Card sx={{ maxWidth: 345 }}>
                   <CardActionArea>
-                    <Image src={blossm1} alt="Picture of the author" />
-                    <CardMedia
-                      component="img"
-                      height="140"
-                      image="/static/images/cards/contemplative-reptile.jpg"
-                      alt="green iguana"
-                    />
+                    <Image src={blossm1} height="350" width="700" />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
                         Lizard
