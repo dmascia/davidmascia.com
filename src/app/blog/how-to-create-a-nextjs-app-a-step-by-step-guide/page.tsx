@@ -6,6 +6,8 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import LetsConnect from "@/components/LetsConnect/";
 import Link from "next/link";
+import Paper from "@mui/material/Paper";
+import { white, grey } from "@mui/material/colors";
 
 export default function Home() {
   return (
@@ -56,7 +58,14 @@ export default function Home() {
                   Follow these steps:
                 </Typography>
                 <Typography variant="h7" component="p">
-                1. Create a New Project
+                  1. Create a New Project
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ fontColor: grey[fafafa] }}>
+                        npx create-next-app@latest my-nextjs-app
+                      </Typography>
+                    </Box>
+                  </Paper>
                 </Typography>
               </Box>
             </Grid>
