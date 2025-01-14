@@ -14,42 +14,10 @@ import Link from "next/link";
 const cards = [
   {
     id: 1,
-    title: "Frontend Development",
+    title: "How to Create a Next.js App: A Step-by-Step Guide",
+    uri: "/blog/how-to-create-a-nextjs-app-a-step-by-step-guide",
     description:
-      "Delivering responsive, intuitive, and visually stunning user interfaces.",
-  },
-  {
-    id: 2,
-    title: "Backend Development",
-    description:
-      "Building reliable, scalable, and efficient server-side solutions.",
-  },
-  {
-    id: 3,
-    title: "Full-Stack Engineering",
-    description:
-      "End-to-end application development for a seamless user journey.",
-  },
-  {
-    id: 4,
-    title: "Code Audits & Optimization",
-    description:
-      "Improving the performance, readability, and maintainability of your codebase.",
-  },
-  {
-    id: 5,
-    title: "Custom Software Solutions",
-    description: "Tailored solutions to meet your unique business needs.",
-  },
-  {
-    id: 6,
-    title: "Technical Leadership & Mentorship",
-    description: "Building and guiding engineering teams to success",
-  },
-  {
-    id: 7,
-    title: "Consulting & Strategy",
-    description: "Building and guiding engineering teams to success. ",
+      "we’ll walk you through the process of creating a new Next.js application from scratch.",
   },
 ];
 
@@ -59,7 +27,11 @@ export default function Home() {
     <Layout>
       <Container>
         <Box mt={8}>
+          <Typography variant="h2" component="h1">
+            Blog
+          </Typography>
           <Grid
+            mt="8"
             container
             spacing={6}
             columns={12}
@@ -71,16 +43,16 @@ export default function Home() {
           >
             <Grid size="12">
               <Box>
-                <Typography variant="h2" component="h1">
-                  Blog
-                </Typography>
-
-                <Typography variant="h6" component="h2">
-                  I specialize in designing and building high-performance,
-                  user-focused applications that scale effortlessly. My
-                  extensive experience ensures that your project is not only
-                  functional but also optimized for success. Here’s how I can
-                  help:
+                <Typography variant="p" component="p">
+                  Welcome to my blog! Here, I share insights, tutorials, and
+                  tips on software development, programming, and building modern
+                  web applications. From mastering frameworks like Next.js and
+                  React to solving challenging coding problems with Python and
+                  JavaScript, you’ll find a wealth of knowledge to help sharpen
+                  your skills and inspire your next project. Whether you’re a
+                  seasoned developer or just starting your coding journey,
+                  there’s something here for everyone. Let’s learn, build, and
+                  innovate together!
                 </Typography>
                 <Box
                   mt={8}
@@ -88,45 +60,39 @@ export default function Home() {
                     width: "100%",
                     display: "grid",
                     gridTemplateColumns:
-                      "repeat(auto-fill, minmax(min(400px, 100%), 1fr))",
+                      "repeat(auto-fill, minmax(min(300px, 100%), 1fr))",
                     gap: 2,
                   }}
                 >
                   {cards.map((card, index) => (
-                    <Card key={card.id}>
-                      <CardActionArea
-                        onClick={() => setSelectedCard(index)}
-                        data-active={selectedCard === index ? "" : undefined}
-                        sx={{
-                          height: "100%",
-                          "&[data-active]": {
-                            backgroundColor: "action.selected",
-                            "&:hover": {
-                              backgroundColor: "action.selectedHover",
+                    <Link href={card.uri} key={card.id}>
+                      <Card>
+                        <CardActionArea
+                          onClick={() => setSelectedCard(index)}
+                          data-active={selectedCard === index ? "" : undefined}
+                          sx={{
+                            height: "100%",
+                            "&[data-active]": {
+                              backgroundColor: "action.selected",
+                              "&:hover": {
+                                backgroundColor: "action.selectedHover",
+                              },
                             },
-                          },
-                        }}
-                      >
-                        <CardContent sx={{ height: "100%" }}>
-                          <Typography variant="h5" component="div">
-                            {card.title}
-                          </Typography>
-                          <Typography variant="body2" color="text.secondary">
-                            {card.description}
-                          </Typography>
-                        </CardContent>
-                      </CardActionArea>
-                    </Card>
+                          }}
+                        >
+                          <CardContent sx={{ height: "100%" }}>
+                            <Typography variant="h5" component="div">
+                              {card.title}
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                              {card.description}
+                            </Typography>
+                          </CardContent>
+                        </CardActionArea>
+                      </Card>
+                    </Link>
                   ))}
                 </Box>
-                <Typography variant="h6" component="h2" mt={8}>
-                  Contact me today on{" "}
-                  <Link href="https://www.linkedin.com/in/davidmascia/">
-                    Linkedin
-                  </Link>{" "}
-                  to discuss your project or explore how I can bring value to
-                  your team.
-                </Typography>
               </Box>
 
               <Box pt={4}>
