@@ -12,7 +12,7 @@ import CardActionArea from "@mui/material/CardActionArea";
 import Link from "next/link";
 import CardMedia from "@mui/material/CardMedia";
 import Image from "next/image";
-import blossm1 from "./imgs/image-7.png";
+import blossm1 from "@/src/app/portfolio/imgs/image-7.png";
 
 export default function Home() {
   return (
