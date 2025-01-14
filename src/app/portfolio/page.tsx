@@ -29,7 +29,31 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <Grid size="12"></Grid>
+            <Grid size="12">
+              <Box
+                mt={8}
+                sx={{
+                  width: "100%",
+                  display: "grid",
+                  gridTemplateColumns:
+                    "repeat(auto-fill, minmax(min(400px, 100%), 1fr))",
+                  gap: 2,
+                }}
+              >
+                <Card>
+                  <CardActionArea>
+                    <CardContent sx={{ height: "100%" }}>
+                      <Typography variant="h5" component="div">
+                        test
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        test
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+              </Box>
+            </Grid>
           </Grid>
         </Box>
       </Container>
