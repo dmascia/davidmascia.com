@@ -157,6 +157,9 @@ export default function Home() {
             </Grid>
           </Grid>
         </Box>
+        <Box pt={4}>
+          <LetsConnect />
+        </Box>
       </Container>
     </Layout>
   );
