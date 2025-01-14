@@ -17,7 +17,14 @@ const cards = [
     title: "How to Create a Next.js App: A Step-by-Step Guide",
     uri: "/blog/how-to-create-a-nextjs-app-a-step-by-step-guide",
     description:
-      "we’ll walk you through the process of creating a new Next.js application from scratch.",
+      "I will walk you through the process of creating a new Next.js application from scratch.",
+  },
+  {
+    id: 2,
+    title: "How to Create Your First Django App",
+    uri: "/blog/how-to-create-your-first-django-app",
+    description:
+      "I will walk you through the process of creating a new Django application from scratch.",
   },
 ];
 

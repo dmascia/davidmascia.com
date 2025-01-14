@@ -30,7 +30,7 @@ export default function Home() {
                   enhance the performance and SEO of their projects.
                 </Typography>
                 <Typography variant="p" component="p">
-                  In this blog post, we’ll walk you through the process of
+                  In this blog post, i’ll walk you through the process of
                   creating a new Next.js application from scratch.
                 </Typography>
                 <Typography variant="h6" component="p">
