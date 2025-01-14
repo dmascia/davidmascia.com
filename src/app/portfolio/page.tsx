@@ -62,13 +62,47 @@ export default function Home() {
                   width: "100%",
                   display: "grid",
                   gridTemplateColumns:
-                    "repeat(auto-fill, minmax(min(275px, 100%), 1fr))",
+                    "repeat(auto-fill, minmax(min(285px, 100%), 1fr))",
                   gap: 2,
                 }}
               >
                 <Image src={blossm1} height="300" />
                 <Image src={blossm2} height="300" />
-                <Image src={blossm3} height="300" />
+                <Image src={blossm4} height="300" />
+              </Box>
+            </Grid>
+            <Grid size="12">
+              <Typography variant="h4" component="h2">
+                Volume.com
+              </Typography>
+              <Typography variant="p" component="p">
+                The Blossm Extension is a tool installed directly onto the
+                Google Chrome web browser. It is a simple and alternative method
+                for Blossm users to securely verify their OnlyFans account
+                ownership to display the stats on their Blossm profile: <br />-
+                Top % <br />- # of Fans (Subscribers) <br />- # of Profiles
+                Following. <br />
+                <br /> The extension uses an API Key to get the information. API
+                stands for Application Programming Interface and this provides a
+                secure and standardized way for applications to work together.
+                Simply put, the API key allows your OnlyFans page to talk
+                directly to your Blossm account! This does not require you to
+                enter your login credentials on Blossm.com, but you do need to
+                be signed into your OnlyFans account within your browser for the
+                extension to work.
+              </Typography>
+              <Box
+                mt={8}
+                sx={{
+                  width: "100%",
+                  display: "grid",
+                  gridTemplateColumns:
+                    "repeat(auto-fill, minmax(min(285px, 100%), 1fr))",
+                  gap: 2,
+                }}
+              >
+                <Image src={blossm1} height="300" />
+                <Image src={blossm2} height="300" />
                 <Image src={blossm4} height="300" />
               </Box>
             </Grid>
