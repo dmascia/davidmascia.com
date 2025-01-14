@@ -62,24 +62,50 @@ export default function Home() {
                   width: "100%",
                   display: "grid",
                   gridTemplateColumns:
-                    "repeat(auto-fill, minmax(min(600px, 100%), 1fr))",
+                    "repeat(auto-fill, minmax(min(345px, 100%), 1fr))",
                   gap: 2,
                 }}
               >
                 <Card sx={{ maxWidth: 345 }}>
                   <CardActionArea>
-                    <Image src={blossm1} height="350" width="700" />
+                    <Image src={blossm1} height="315" />
                     <CardContent>
-                      <Typography gutterBottom variant="h5" component="div">
-                        Lizard
-                      </Typography>
                       <Typography
                         variant="body2"
                         sx={{ color: "text.secondary" }}
                       >
-                        Lizards are a widespread group of squamate reptiles,
-                        with over 6,000 species, ranging across all continents
-                        except Antarctica
+                        Select the Blossm Extension to get the pop-up and paste
+                        your API key into the field.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+                <Card sx={{ maxWidth: 345 }}>
+                  <CardActionArea>
+                    <Image src={blossm2} height="315" />
+                    <CardContent>
+                      <Typography
+                        variant="body2"
+                        sx={{ color: "text.secondary" }}
+                      >
+                        The API Key for your user is now displaying in the
+                        pop-up. Click the icon to the right to copy your API
+                        Key.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+                <Card sx={{ maxWidth: 345 }}>
+                  <CardActionArea>
+                    <Image src={blossm3} height="315" />
+                    <CardContent>
+                      <Typography
+                        variant="body2"
+                        sx={{ color: "text.secondary" }}
+                      >
+                        The API Key for your user is now displaying in the
+                        pop-up. Click the icon to the right to copy your API
+                        Key.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
