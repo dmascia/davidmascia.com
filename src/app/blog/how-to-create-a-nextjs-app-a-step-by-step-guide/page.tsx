@@ -135,35 +135,67 @@ export default function Home() {
                   to see your new page in action.
                 </Typography>
                 <Typography variant="h6" component="p">
-                  Step 5: Styling Your Application
+                  Step 5: Adding API Routes
                 </Typography>
                 <Typography variant="p" component="p">
-                  1. Open styles/Home.module.css.
+                  Next.js allows you to create backend endpoints directly within
+                  the pages/api folder.
                   <br />
-                  2. Add the following styles:
+                  1. Open pages/api/hello.js.
+                  <br />
+                  2. Modify the code as follows:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
                       <Typography variant="p" sx={{ color: grey[50] }}>
                         <code>
-                        .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
-h1 {
-  color: #0070f3;
-  font-size: 2.5rem;
-  text-align: center;
-}
+                          export default function handler(req, res) &#123;
+                          res.status(200).json(&#123; message: 'Hello, world!'
+                          &#125;); &#125;
                         </code>
                       </Typography>
                     </Box>
                   </Paper>
-                  3. Save the file and navigate to http://localhost:3000/about
-                  to see your new page in action.
+                  3. Start the server and visit http://localhost:3000/api/hello
+                  to see your API response.
+                </Typography>
+                <Typography variant="h6" component="p">
+                  Step 6: Building for Production
+                </Typography>
+                <Typography variant="p" component="p">
+                  When your app is ready for deployment:
+                  <br /> 1. Build your application:
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                        <code>$ npm run build</code>
+                      </Typography>
+                    </Box>
+                  </Paper>
+                  2. Start the production server:
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                        <code>$ npm start</code>
+                      </Typography>
+                    </Box>
+                  </Paper>
+                </Typography>
+                <Typography variant="h6" component="p">
+                  Conclusion
+                </Typography>
+                <Typography variant="p" component="p">
+                  Congratulations! <br /> You’ve created a fully functional
+                  Next.js application, explored the file structure, and built
+                  your first page. Next.js offers endless possibilities for
+                  creating fast, SEO-friendly, and scalable web applications.
+                  Dive deeper into its documentation to unlock even more
+                  features, like dynamic routing, middleware, and advanced API
+                  integrations.
+                  <br />
+                  <br />
+                  <br />
+                  Ready to get started? Build something amazing with Next.js
+                  today! 🎉
                 </Typography>
               </Box>
             </Grid>
