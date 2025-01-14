@@ -123,16 +123,47 @@ export default function Home() {
                     <Box p={1}>
                       <Typography variant="p" sx={{ color: grey[50] }}>
                         <code>
-                          export default function About() &#123; return ( \\
-                          <div>
-                            <h1>About Us</h1>
-                            <p>This is the about page of our Next.js app.</p>
-                          </div>
-                          )&#125;
+                          export default function About() &#123; return (
+                          &lt;div&gt;&lt;h1&gt;About Us&lt;/h1&gt;&lt;p&gt;This
+                          is the about page of our Next.js
+                          app.&lt;/p&gt;&lt;/div&gt; )&#125;
                         </code>
                       </Typography>
                     </Box>
                   </Paper>
+                  3. Save the file and navigate to http://localhost:3000/about
+                  to see your new page in action.
+                </Typography>
+                <Typography variant="h6" component="p">
+                  Step 5: Styling Your Application
+                </Typography>
+                <Typography variant="p" component="p">
+                  1. Open styles/Home.module.css.
+                  <br />
+                  2. Add the following styles:
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                        <code>
+                        .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #0070f3;
+  font-size: 2.5rem;
+  text-align: center;
+}
+                        </code>
+                      </Typography>
+                    </Box>
+                  </Paper>
+                  3. Save the file and navigate to http://localhost:3000/about
+                  to see your new page in action.
                 </Typography>
               </Box>
             </Grid>
