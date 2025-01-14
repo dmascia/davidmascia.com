@@ -45,7 +45,7 @@ export default function Home() {
               <Typography variant="h4" component="h2">
                 Blossm Chrome Extension
               </Typography>
-              <Typography variant="p" component="p">
+              <Typography variant="body1" gutterBottom>
                 The Blossm Extension is a tool installed directly onto the
                 Google Chrome web browser. It is a simple and alternative method
                 for Blossm users to securely verify their OnlyFans account
@@ -79,7 +79,7 @@ export default function Home() {
               <Typography variant="h4" component="h2">
                 Volume Media
               </Typography>
-              <Typography variant="p" component="p">
+              <Typography variant="body1" gutterBottom>
                 Explore the innovative redesign of the Volume.com profile stream
                 page, crafted to deliver an intuitive and engaging user
                 experience. The new design highlights:
@@ -109,7 +109,7 @@ export default function Home() {
               <Typography variant="h4" component="h2">
                 CardCash.com
               </Typography>
-              <Typography variant="p" component="p">
+              <Typography variant="body1" gutterBottom>
                 Explore highlights from our transformative projects and
                 partnerships, showcasing innovation and leadership:
                 <br />

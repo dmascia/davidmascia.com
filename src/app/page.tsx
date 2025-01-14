@@ -34,7 +34,7 @@ export default function Home() {
                   Crafting Scalable Solutions, Driving Innovation, Delivering
                   Impact.
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   <br />
                   Hi, I’m David Mascia, a seasoned Software Engineer from New
                   Jersey, with over 20 years of hands-on experience creating

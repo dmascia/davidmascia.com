@@ -22,21 +22,21 @@ export default function Home() {
               <Box
                 sx={{ display: "flex", gap: "15px", flexDirection: "column" }}
               >
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Next.js is a powerful React framework for building scalable,
                   production-ready web applications. With built-in features like
                   server-side rendering (SSR), static site generation (SSG), and
                   API routes, it’s a go-to solution for developers looking to
                   enhance the performance and SEO of their projects.
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   In this blog post, i’ll walk you through the process of
                   creating a new Next.js application from scratch.
                 </Typography>
                 <Typography variant="h6" component="p">
                   Step 1: Prerequisites
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Before starting, ensure you have the following tools installed
                   on your system:
                   <br /> 1. Node.js: Download and install the latest stable
@@ -53,11 +53,11 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 2: Setting Up Your Next.js App
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Next.js provides a CLI tool to create a new app quickly.
                   Follow these steps:
                 </Typography>
-                <Typography variant="h7" component="p">
+                <Typography variant="h6" gutterBottom>
                   1. Create a New Project
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -79,7 +79,7 @@ export default function Home() {
                   TypeScript support, ESLint setup, or Tailwind CSS. Select the
                   ones that fit your project needs.
                 </Typography>
-                <Typography variant="h7" component="p">
+                <Typography variant="h6" gutterBottom>
                   2. Navigate to Your Project Directory
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -89,7 +89,7 @@ export default function Home() {
                     </Box>
                   </Paper>
                 </Typography>
-                <Typography variant="h7" component="p">
+                <Typography variant="h6" gutterBottom>
                   3. Start the Development Server Run the following command to
                   start the development server:
                   <Paper sx={{ backgroundColor: grey[900] }}>
@@ -105,7 +105,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 3: Exploring the Project Structure
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Here’s what the basic folder structure looks like:
                   <br /> • pages/: Contains the application’s pages. Files here
                   automatically map to routes. <br />• public/: Static files
@@ -115,7 +115,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 4: Creating Your First Page
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   1. Open the pages folder.
                   <br />
                   2. Create a new file, about.js.
@@ -137,7 +137,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 5: Adding API Routes
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Next.js allows you to create backend endpoints directly within
                   the pages/api folder.
                   <br />
@@ -161,7 +161,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 6: Building for Production
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   When your app is ready for deployment:
                   <br /> 1. Build your application:
                   <Paper sx={{ backgroundColor: grey[900] }}>
@@ -183,7 +183,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Conclusion
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Congratulations! <br /> You’ve created a fully functional
                   Next.js application, explored the file structure, and built
                   your first page. Next.js offers endless possibilities for

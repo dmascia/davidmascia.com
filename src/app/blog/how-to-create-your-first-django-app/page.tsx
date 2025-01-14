@@ -22,7 +22,7 @@ export default function Home() {
               <Box
                 sx={{ display: "flex", gap: "15px", flexDirection: "column" }}
               >
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Django is a high-level Python web framework that allows you to
                   build robust, scalable, and secure web applications quickly.
                   Whether you’re a beginner or an experienced developer,
@@ -30,14 +30,14 @@ export default function Home() {
                   this post, we’ll guide you through creating a basic Django app
                   from scratch.
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   In this blog post, i’ll walk you through the process of
                   creating a new Django application from scratch.
                 </Typography>
                 <Typography variant="h6" component="p">
                   Step 1: Prerequisites
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Before starting, ensure you have the following tools installed
                   on your system:
                   <br /> 1.Python Installed: Django requires Python 3.6 or
@@ -52,7 +52,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 2: Install Django
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   First, create a virtual environment to isolate your project
                   dependencies. Run:
                   <Paper sx={{ backgroundColor: grey[900] }}>
@@ -84,7 +84,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 3: Start a Django Project
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Create your project folder and navigate to it:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -105,7 +105,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 4: Start an App
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Django projects are composed of apps. Create your first app:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -118,7 +118,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 5: Add Your App to the Project
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Register the app in settings.py under INSTALLED_APPS
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -139,7 +139,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 6: Define a View
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Open myapp/views.py and define a simple view:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -153,7 +153,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Step 7: Set Up a URL Route
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   In myproject/urls.py, include your app’s URL pattern:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -173,7 +173,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Start the server to test your app:
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   In myproject/urls.py, include your app’s URL pattern:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
@@ -188,7 +188,7 @@ export default function Home() {
                 <Typography variant="h6" component="p">
                   Conclusion
                 </Typography>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Congratulations! <br /> You’ve built your first Django app.
                   From here, you can:
                   <br /> • Add models to manage data. <br />• Build forms to

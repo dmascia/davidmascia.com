@@ -50,7 +50,7 @@ export default function Home() {
           >
             <Grid>
               <Box>
-                <Typography variant="p" component="p">
+                <Typography variant="body1" gutterBottom>
                   Welcome to my blog! Here, I share insights, tutorials, and
                   tips on software development, programming, and building modern
                   web applications. From mastering frameworks like Next.js and
