@@ -13,7 +13,15 @@ import blossm4 from "./blossm/image5.png";
 import volume1 from "./volume/image1.png";
 import volume2 from "./volume/image2.png";
 import volume3 from "./volume/image3.png";
-
+import amazon from "./cardcash/amazon.png";
+import stjude from "./cardcash/stjude.png";
+import wayfair from "./cardcash/wayfair.png";
+import speedway from "./cardcash/speedway.png";
+import ios from "./cardcash/ios.png";
+import mobile1 from "./cardcash/mobile1.png";
+import mobile2 from "./cardcash/mobile2.png";
+import mobile3 from "./cardcash/mobile3.png";
+import premier from "./cardcash/premier.png";
 export default function Home() {
   return (
     <Layout>
@@ -102,30 +110,50 @@ export default function Home() {
                 CardCash.com
               </Typography>
               <Typography variant="p" component="p">
-                Explore the innovative redesign of the Volume.com profile stream
-                page, crafted to deliver an intuitive and engaging user
-                experience. The new design highlights:
+                Explore highlights from our transformative projects and
+                partnerships, showcasing innovation and leadership:
                 <br />
-                <br />• Enhanced Video Player: Stream videos with high-quality
-                options, complete with seamless Chromecast and Apple AirPlay
-                integration for versatile viewing across devices.
-                <br />• Interactive Chat Feature: A collapsible chat panel lets
-                you connect with other viewers while keeping the video in focus
-                or switch to full-screen mode for an immersive experience.
-                <br />• Dynamic Profile Integration: Scroll down effortlessly to
-                explore detailed user profiles, fostering connections and
-                community engagement right from the stream page.
+                • Strategic Partnerships: Proud collaborations with industry
+                leaders like Speedway, Wayfair, Amazon, and St. Jude, driving
+                impactful solutions and delivering value to diverse audiences.
                 <br />
+                • React Native Mobile App: A sleek and efficient mobile app
+                developed under my leadership, built with React Native to
+                provide seamless cross-platform experiences, enhanced usability,
+                and modern design.
                 <br />
-                This redesign prioritizes accessibility, performance, and user
-                satisfaction, making streaming and interaction smoother and more
-                enjoyable than ever.
+                • Bulk Seller Tool Launch: Introducing a powerful bulk seller
+                tool designed for efficiency and scalability, empowering users
+                to manage high-volume transactions with ease and precision.
+                <br />
+                These milestones reflect a commitment to building cutting-edge,
+                user-focused solutions that inspire and deliver measurable
+                results.
+                <br />
               </Typography>
-              <Image src={volume1} height="300" />
+              <Image src={amazon} height="300" />
               <br />
-              <Image src={volume2} height="300" />
+              <Image src={stjude} height="300" />
               <br />
-              <Image src={volume3} height="300" />
+              <Image src={wayfair} height="300" />
+              <br />
+              <Image src={speedway} height="300" />
+              <br />
+              <Image src={premier} height="300" />
+              <Box
+                sx={{
+                  width: "100%",
+                  display: "grid",
+                  gridTemplateColumns:
+                    "repeat(auto-fill, minmax(min(225px, 100%), 1fr))",
+                  gap: 2,
+                }}
+              >
+                <Image src={ios} height="300" />
+                <Image src={mobile1} height="300" />
+                <Image src={mobile2} height="300" />
+                <Image src={mobile3} height="300" />
+              </Box>
             </Grid>
           </Grid>
         </Box>
