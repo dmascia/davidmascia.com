@@ -17,6 +17,7 @@ const pages = [
   { name: "Home", uri: "/" },
   { name: "Resume", uri: "/resume" },
   { name: "Services", uri: "/services" },
+  { name: "Portfolio", uri: "/portfolio" },
 ];
 
 function Header() {
