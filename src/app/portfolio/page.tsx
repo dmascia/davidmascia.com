@@ -6,16 +6,13 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import LetsConnect from "@/components/LetsConnect/";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardActionArea from "@mui/material/CardActionArea";
-import Link from "next/link";
-import CardMedia from "@mui/material/CardMedia";
 import Image from "next/image";
 import blossm1 from "./blossm/image2.png";
 import blossm2 from "./blossm/image4.png";
-import blossm3 from "./blossm/image1.png";
 import blossm4 from "./blossm/image5.png";
+import volume1 from "./volume/image2.png";
+import volume2 from "./volume/image4.png";
+import volume3 from "./volume/image1.png";
 
 export default function Home() {
   return (
