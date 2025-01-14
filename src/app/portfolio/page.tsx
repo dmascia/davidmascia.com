@@ -62,54 +62,14 @@ export default function Home() {
                   width: "100%",
                   display: "grid",
                   gridTemplateColumns:
-                    "repeat(auto-fill, minmax(min(345px, 100%), 1fr))",
+                    "repeat(auto-fill, minmax(min(275px, 100%), 1fr))",
                   gap: 2,
                 }}
               >
-                <Card sx={{ maxWidth: 345 }}>
-                  <CardActionArea>
-                    <Image src={blossm1} height="315" />
-                    <CardContent>
-                      <Typography
-                        variant="body2"
-                        sx={{ color: "text.secondary" }}
-                      >
-                        Select the Blossm Extension to get the pop-up and paste
-                        your API key into the field.
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Card>
-                <Card sx={{ maxWidth: 345 }}>
-                  <CardActionArea>
-                    <Image src={blossm2} height="315" />
-                    <CardContent>
-                      <Typography
-                        variant="body2"
-                        sx={{ color: "text.secondary" }}
-                      >
-                        The API Key for your user is now displaying in the
-                        pop-up. Click the icon to the right to copy your API
-                        Key.
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Card>
-                <Card sx={{ maxWidth: 345 }}>
-                  <CardActionArea>
-                    <Image src={blossm3} height="315" />
-                    <CardContent>
-                      <Typography
-                        variant="body2"
-                        sx={{ color: "text.secondary" }}
-                      >
-                        The API Key for your user is now displaying in the
-                        pop-up. Click the icon to the right to copy your API
-                        Key.
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Card>
+                <Image src={blossm1} height="300" />
+                <Image src={blossm2} height="300" />
+                <Image src={blossm3} height="300" />
+                <Image src={blossm4} height="300" />
               </Box>
             </Grid>
           </Grid>
