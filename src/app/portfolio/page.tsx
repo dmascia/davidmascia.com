@@ -11,6 +11,7 @@ import CardContent from "@mui/material/CardContent";
 import CardActionArea from "@mui/material/CardActionArea";
 import Link from "next/link";
 import CardMedia from "@mui/material/CardMedia";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
             Portfolio
           </Typography>
           <Grid
+            mt={6}
             container
             spacing={6}
             columns={12}
@@ -34,17 +36,21 @@ export default function Home() {
               <Typography variant="h4" component="h2">
                 Blossm Chrome Extension
               </Typography>
-              <Typography variant="h6" component="h2">
-                <Typography variant="p" component="p">
-                  The extension uses an API Key to get the information. API
-                  stands for Application Programming Interface and this provides
-                  a secure and standardized way for applications to work
-                  together. Simply put, the API key allows your OnlyFans page to
-                  talk directly to your Blossm account! This does not require
-                  you to enter your login credentials on Blossm.com, but you do
-                  need to be signed into your OnlyFans account within your
-                  browser for the extension to work.
-                </Typography>
+              <Typography variant="p" component="p">
+                The Blossm Extension is a tool installed directly onto the
+                Google Chrome web browser. It is a simple and alternative method
+                for Blossm users to securely verify their OnlyFans account
+                ownership to display the stats on their Blossm profile: <br />-
+                Top % <br />- # of Fans (Subscribers) <br />- # of Profiles
+                Following. <br />
+                <br /> The extension uses an API Key to get the information. API
+                stands for Application Programming Interface and this provides a
+                secure and standardized way for applications to work together.
+                Simply put, the API key allows your OnlyFans page to talk
+                directly to your Blossm account! This does not require you to
+                enter your login credentials on Blossm.com, but you do need to
+                be signed into your OnlyFans account within your browser for the
+                extension to work.
               </Typography>
               <Box
                 mt={8}
