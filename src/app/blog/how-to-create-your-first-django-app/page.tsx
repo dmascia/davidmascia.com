@@ -18,7 +18,7 @@ export default function Home() {
             How to Create Your First Django App
           </Typography>
           <Grid container spacing={3} columns={12}>
-            <Grid size="12">
+            <Grid>
               <Box
                 sx={{ display: "flex", gap: "15px", flexDirection: "column" }}
               >

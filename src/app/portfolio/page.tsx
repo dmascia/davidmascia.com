@@ -41,7 +41,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <Grid size="12">
+            <Grid>
               <Typography variant="h4" component="h2">
                 Blossm Chrome Extension
               </Typography>
@@ -75,7 +75,7 @@ export default function Home() {
                 <Image src={blossm4} height="300" />
               </Box>
             </Grid>
-            <Grid size="12">
+            <Grid>
               <Typography variant="h4" component="h2">
                 Volume Media
               </Typography>
@@ -105,7 +105,7 @@ export default function Home() {
               <br />
               <Image src={volume3} height="300" />
             </Grid>
-            <Grid size="12">
+            <Grid>
               <Typography variant="h4" component="h2">
                 CardCash.com
               </Typography>

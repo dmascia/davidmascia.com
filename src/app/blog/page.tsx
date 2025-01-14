@@ -48,7 +48,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <Grid size="12">
+            <Grid>
               <Box>
                 <Typography variant="p" component="p">
                   Welcome to my blog! Here, I share insights, tutorials, and

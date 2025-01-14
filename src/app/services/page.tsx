@@ -69,7 +69,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <Grid size="12">
+            <Grid>
               <Box>
                 <Typography variant="h2" component="h1">
                   Services
