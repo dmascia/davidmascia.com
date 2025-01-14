@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import LetsConnect from "@/components/LetsConnect/";
 import Link from "next/link";
 import Paper from "@mui/material/Paper";
-import { white, grey } from "@mui/material/colors";
+import { grey } from "@mui/material/colors";
 
 export default function Home() {
   return (
@@ -61,8 +61,75 @@ export default function Home() {
                   1. Create a New Project
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ fontColor: grey[fafafa] }}>
-                        npx create-next-app@latest my-nextjs-app
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                        $ npx create-next-app@latest my-nextjs-app
+                      </Typography>
+                    </Box>
+                  </Paper>
+                  Alternatively, if you’re using Yarn:
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                        $ yarn create next-app my-nextjs-app
+                      </Typography>
+                    </Box>
+                  </Paper>
+                  Replace my-nextjs-app with your desired project name. You will
+                  be prompted to select some configuration options, such as
+                  TypeScript support, ESLint setup, or Tailwind CSS. Select the
+                  ones that fit your project needs.
+                </Typography>
+                <Typography variant="h7" component="p">
+                  2. Navigate to Your Project Directory
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                        $ cd my-nextjs-app
+                      </Typography>
+                    </Box>
+                  </Paper>
+                </Typography>
+                <Typography variant="h7" component="p">
+                  3. Start the Development Server Run the following command to
+                  start the development server:
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                        npm run dev
+                      </Typography>
+                    </Box>
+                  </Paper>
+                  By default, your app will be accessible at
+                  http://localhost:3000.
+                </Typography>
+                <Typography variant="h6" component="p">
+                  Step 3: Exploring the Project Structure
+                </Typography>
+                <Typography variant="p" component="p">
+                  Here’s what the basic folder structure looks like:
+                  <br /> • pages/: Contains the application’s pages. Files here
+                  automatically map to routes. <br />• public/: Static files
+                  like images and fonts. <br />• styles/: CSS modules and global
+                  styles.
+                </Typography>
+                <Typography variant="h6" component="p">
+                  Step 4: Creating Your First Page
+                </Typography>
+                <Typography variant="p" component="p">
+                  1. Open the pages folder.
+                  <br />
+                  2. Create a new file, about.js.
+                  <Paper sx={{ backgroundColor: grey[900] }}>
+                    <Box p={1}>
+                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      {export default function About() {
+  return (
+    <div>
+      <h1>About Us</h1>
+      <p>This is the about page of our Next.js app.</p>
+    </div>
+  );}
+}
                       </Typography>
                     </Box>
                   </Paper>
