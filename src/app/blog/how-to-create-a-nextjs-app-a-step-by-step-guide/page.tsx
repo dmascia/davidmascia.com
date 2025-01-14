@@ -61,7 +61,11 @@ export default function Home() {
                   1. Create a New Project
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ npx create-next-app@latest my-nextjs-app
                       </Typography>
                     </Box>
@@ -69,7 +73,11 @@ export default function Home() {
                   Alternatively, if you’re using Yarn:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ yarn create next-app my-nextjs-app
                       </Typography>
                     </Box>
@@ -83,7 +91,11 @@ export default function Home() {
                   2. Navigate to Your Project Directory
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ cd my-nextjs-app
                       </Typography>
                     </Box>
@@ -94,7 +106,11 @@ export default function Home() {
                   start the development server:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         npm run dev
                       </Typography>
                     </Box>
@@ -121,7 +137,11 @@ export default function Home() {
                   2. Create a new file, about.js.
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         <code>
                           export default function About() &#123; return (
                           &lt;div&gt;&lt;h1&gt;About Us&lt;/h1&gt;&lt;p&gt;This
@@ -146,7 +166,11 @@ export default function Home() {
                   2. Modify the code as follows:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         <code>
                           export default function handler(req, res) &#123;
                           res.status(200).json(&#123; message: 'Hello, world!'
@@ -166,7 +190,11 @@ export default function Home() {
                   <br /> 1. Build your application:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         <code>$ npm run build</code>
                       </Typography>
                     </Box>
@@ -174,7 +202,11 @@ export default function Home() {
                   2. Start the production server:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         <code>$ npm start</code>
                       </Typography>
                     </Box>

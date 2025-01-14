@@ -57,7 +57,11 @@ export default function Home() {
                   dependencies. Run:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ python -m venv myenv $ source myenv/bin/activate # On
                         Windows: myenv\Scripts\activate
                       </Typography>
@@ -66,7 +70,11 @@ export default function Home() {
                   Next, install Django:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ pip install django
                       </Typography>
                     </Box>
@@ -74,7 +82,11 @@ export default function Home() {
                   You can confirm the installation by checking the version:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ django-admin --version
                       </Typography>
                     </Box>
@@ -88,7 +100,11 @@ export default function Home() {
                   Create your project folder and navigate to it:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ mkdir my_django_project $ cd my_django_project
                       </Typography>
                     </Box>
@@ -96,7 +112,11 @@ export default function Home() {
                   Run the following command to start a new project:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ django-admin startproject myproject .
                       </Typography>
                     </Box>
@@ -109,7 +129,11 @@ export default function Home() {
                   Django projects are composed of apps. Create your first app:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ python manage.py startapp myapp
                       </Typography>
                     </Box>
@@ -122,7 +146,11 @@ export default function Home() {
                   Register the app in settings.py under INSTALLED_APPS
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         INSTALLED_APPS = [ <br />
                         'django.contrib.admin', <br />
                         'django.contrib.auth', <br />
@@ -143,7 +171,11 @@ export default function Home() {
                   Open myapp/views.py and define a simple view:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         from django.http import HttpResponse def home(request):
                         return HttpResponse("Welcome to my Django app!")
                       </Typography>
@@ -157,7 +189,11 @@ export default function Home() {
                   In myproject/urls.py, include your app’s URL pattern:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         from django.contrib import admin <br />
                         from django.urls import path <br />
                         from myapp import views <br />
@@ -177,7 +213,11 @@ export default function Home() {
                   In myproject/urls.py, include your app’s URL pattern:
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
-                      <Typography variant="p" sx={{ color: grey[50] }}>
+                      <Typography
+                        variant="body1"
+                        sx={{ color: grey[50] }}
+                        gutterBottom
+                      >
                         $ python manage.py runserver
                       </Typography>
                     </Box>

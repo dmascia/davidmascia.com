@@ -70,9 +70,9 @@ export default function Home() {
                   gap: 2,
                 }}
               >
-                <Image src={blossm1} height="300" />
-                <Image src={blossm2} height="300" />
-                <Image src={blossm4} height="300" />
+                <Image src={blossm1} height="300" alt="" />
+                <Image src={blossm2} height="300" alt="" />
+                <Image src={blossm4} height="300" alt="" />
               </Box>
             </Grid>
             <Grid>
@@ -99,11 +99,11 @@ export default function Home() {
                 satisfaction, making streaming and interaction smoother and more
                 enjoyable than ever.
               </Typography>
-              <Image src={volume1} height="300" />
+              <Image src={volume1} height="300" alt="" />
               <br />
-              <Image src={volume2} height="300" />
+              <Image src={volume2} height="300" alt="" />
               <br />
-              <Image src={volume3} height="300" />
+              <Image src={volume3} height="300" alt="" />
             </Grid>
             <Grid>
               <Typography variant="h4" component="h2">
@@ -131,15 +131,15 @@ export default function Home() {
                 results.
                 <br />
               </Typography>
-              <Image src={amazon} height="300" />
+              <Image src={amazon} height="300" alt="" />
               <br />
-              <Image src={stjude} height="300" />
+              <Image src={stjude} height="300" alt="" />
               <br />
-              <Image src={wayfair} height="300" />
+              <Image src={wayfair} height="300" alt="" />
               <br />
-              <Image src={speedway} height="300" />
+              <Image src={speedway} height="300" alt="" />
               <br />
-              <Image src={premier} height="300" />
+              <Image src={premier} height="300" alt="" />
               <Box
                 sx={{
                   width: "100%",
@@ -149,10 +149,10 @@ export default function Home() {
                   gap: 2,
                 }}
               >
-                <Image src={ios} height="300" />
-                <Image src={mobile1} height="300" />
-                <Image src={mobile2} height="300" />
-                <Image src={mobile3} height="300" />
+                <Image src={ios} height="300" alt="" />
+                <Image src={mobile1} height="300" alt="" />
+                <Image src={mobile2} height="300" alt="" />
+                <Image src={mobile3} height="300" alt="" />
               </Box>
             </Grid>
           </Grid>
