@@ -1,13 +1,60 @@
 "use client";
+import * as React from "react";
 import Layout from "@/components/Layout/layout";
 import Grid from "@mui/material/Grid2";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Image from "next/image";
 import LetsConnect from "@/components/LetsConnect/";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardActionArea from "@mui/material/CardActionArea";
+import Link from "next/link";
+
+const cards = [
+  {
+    id: 1,
+    title: "Frontend Development",
+    description:
+      "Delivering responsive, intuitive, and visually stunning user interfaces.",
+  },
+  {
+    id: 2,
+    title: "Backend Development",
+    description:
+      "Building reliable, scalable, and efficient server-side solutions.",
+  },
+  {
+    id: 3,
+    title: "Full-Stack Engineering",
+    description:
+      "End-to-end application development for a seamless user journey.",
+  },
+  {
+    id: 4,
+    title: "Code Audits & Optimization",
+    description:
+      "Improving the performance, readability, and maintainability of your codebase.",
+  },
+  {
+    id: 5,
+    title: "Custom Software Solutions",
+    description: "Tailored solutions to meet your unique business needs.",
+  },
+  {
+    id: 6,
+    title: "Technical Leadership & Mentorship",
+    description: "Building and guiding engineering teams to success",
+  },
+  {
+    id: 7,
+    title: "Consulting & Strategy",
+    description: "Building and guiding engineering teams to success. ",
+  },
+];
 
 export default function Home() {
+  const [selectedCard, setSelectedCard] = React.useState(0);
   return (
     <Layout>
       <Container>
@@ -22,59 +69,68 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <Grid size={{ xs: 12, md: 6 }}>
+            <Grid size="12">
               <Box>
-                <Typography variant="h1" component="h1">
-                  Hi, I’m ...
+                <Typography variant="h2" component="h1">
+                  Blog
                 </Typography>
-                <Typography variant="h1" component="h1">
-                  David Mascia
-                </Typography>
+
                 <Typography variant="h6" component="h2">
-                  Crafting Scalable Solutions, Driving Innovation, Delivering
-                  Impact.
+                  I specialize in designing and building high-performance,
+                  user-focused applications that scale effortlessly. My
+                  extensive experience ensures that your project is not only
+                  functional but also optimized for success. Here’s how I can
+                  help:
                 </Typography>
-                <Typography variant="p" component="p">
-                  <br />
-                  Hi, I’m David Mascia, a seasoned Software Engineer from New
-                  Jersey, with over 20 years of hands-on experience creating
-                  impactful, scalable, and user-centric applications.
-                  <br /> <br />
-                  Throughout my career, I’ve delivered measurable results in
-                  performance optimization, user engagement, and operational
-                  efficiency. At Volume Media, I enhanced user engagement by 85%
-                  and improved frontend performance by 75% with Next.js,
-                  TypeScript, Python, and Django. At CardCash, I successfully
-                  led the migration to a microservices architecture, driving a
-                  4x growth in users and an 80% revenue boost.
-                  <br /> <br />
-                  My expertise spans modern web technologies, including React,
-                  Redux, Django, and Docker, paired with a deep passion for
-                  fostering team collaboration and mentoring the next generation
-                  of developers. <br /> <br />
-                  Explore my website to see the projects I’ve brought to life
-                  and learn more about my journey in software engineering.
-                  Whether it’s crafting a seamless user experience or driving
-                  architectural innovation, I’m committed to delivering
-                  solutions that make an impact.
+                <Box
+                  mt={8}
+                  sx={{
+                    width: "100%",
+                    display: "grid",
+                    gridTemplateColumns:
+                      "repeat(auto-fill, minmax(min(400px, 100%), 1fr))",
+                    gap: 2,
+                  }}
+                >
+                  {cards.map((card, index) => (
+                    <Card key={card.id}>
+                      <CardActionArea
+                        onClick={() => setSelectedCard(index)}
+                        data-active={selectedCard === index ? "" : undefined}
+                        sx={{
+                          height: "100%",
+                          "&[data-active]": {
+                            backgroundColor: "action.selected",
+                            "&:hover": {
+                              backgroundColor: "action.selectedHover",
+                            },
+                          },
+                        }}
+                      >
+                        <CardContent sx={{ height: "100%" }}>
+                          <Typography variant="h5" component="div">
+                            {card.title}
+                          </Typography>
+                          <Typography variant="body2" color="text.secondary">
+                            {card.description}
+                          </Typography>
+                        </CardContent>
+                      </CardActionArea>
+                    </Card>
+                  ))}
+                </Box>
+                <Typography variant="h6" component="h2" mt={8}>
+                  Contact me today on{" "}
+                  <Link href="https://www.linkedin.com/in/davidmascia/">
+                    Linkedin
+                  </Link>{" "}
+                  to discuss your project or explore how I can bring value to
+                  your team.
                 </Typography>
               </Box>
+
               <Box pt={4}>
                 <LetsConnect />
-              </Box>
-            </Grid>
-            <Grid size={{ xs: 0, md: 4 }}>
-              <Box sx={{ display: { xs: "none", md: "flex" } }}>
-                <Image
-                  src={
-                    "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_800_800/B4EZRNjlKuGwAc-/0/1736467961931?e=1742428800&v=beta&t=64e_qMWpJ4wzltQqKS2cb-jEyGgksRGP-KMjv2R_XKI"
-                  }
-                  alt="David Mascia"
-                  sizes="100vw"
-                  width="400"
-                  height="400"
-                  style={{ borderRadius: "50px" }}
-                />
               </Box>
             </Grid>
           </Grid>
