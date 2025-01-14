@@ -54,7 +54,6 @@ export default function Home() {
                 extension to work.
               </Typography>
               <Box
-                mt={8}
                 sx={{
                   width: "100%",
                   display: "grid",
@@ -93,7 +92,9 @@ export default function Home() {
                 enjoyable than ever.
               </Typography>
               <Image src={volume1} height="300" />
+              <br />
               <Image src={volume2} height="300" />
+              <br />
               <Image src={volume3} height="300" />
             </Grid>
           </Grid>
