@@ -10,6 +10,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardActionArea from "@mui/material/CardActionArea";
 import Link from "next/link";
+import CardMedia from "@mui/material/CardMedia";
 
 export default function Home() {
   return (
@@ -30,6 +31,21 @@ export default function Home() {
             }}
           >
             <Grid size="12">
+              <Typography variant="h4" component="h2">
+                Blossm Chrome Extension
+              </Typography>
+              <Typography variant="h6" component="h2">
+                <Typography variant="p" component="p">
+                  The extension uses an API Key to get the information. API
+                  stands for Application Programming Interface and this provides
+                  a secure and standardized way for applications to work
+                  together. Simply put, the API key allows your OnlyFans page to
+                  talk directly to your Blossm account! This does not require
+                  you to enter your login credentials on Blossm.com, but you do
+                  need to be signed into your OnlyFans account within your
+                  browser for the extension to work.
+                </Typography>
+              </Typography>
               <Box
                 mt={8}
                 sx={{
@@ -40,14 +56,25 @@ export default function Home() {
                   gap: 2,
                 }}
               >
-                <Card>
+                <Card sx={{ maxWidth: 345 }}>
                   <CardActionArea>
-                    <CardContent sx={{ height: "100%" }}>
-                      <Typography variant="h5" component="div">
-                        test
+                    <CardMedia
+                      component="img"
+                      height="140"
+                      image="/static/images/cards/contemplative-reptile.jpg"
+                      alt="green iguana"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div">
+                        Lizard
                       </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        test
+                      <Typography
+                        variant="body2"
+                        sx={{ color: "text.secondary" }}
+                      >
+                        Lizards are a widespread group of squamate reptiles,
+                        with over 6,000 species, ranging across all continents
+                        except Antarctica
                       </Typography>
                     </CardContent>
                   </CardActionArea>
