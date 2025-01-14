@@ -12,6 +12,7 @@ import CardActionArea from "@mui/material/CardActionArea";
 import Link from "next/link";
 import CardMedia from "@mui/material/CardMedia";
 import Image from "next/image";
+import blossm1 from "./imgs/image-7.png";
 
 export default function Home() {
   return (
@@ -64,6 +65,7 @@ export default function Home() {
               >
                 <Card sx={{ maxWidth: 345 }}>
                   <CardActionArea>
+                    <Image src={blossm1} alt="Picture of the author" />
                     <CardMedia
                       component="img"
                       height="140"
