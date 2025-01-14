@@ -122,7 +122,14 @@ export default function Home() {
                   <Paper sx={{ backgroundColor: grey[900] }}>
                     <Box p={1}>
                       <Typography variant="p" sx={{ color: grey[50] }}>
-                        <div dangerouslySetInnerHTML={{ __html: "rr" }} />
+                        <code>
+                          export default function About() &#123; return ( \\
+                          <div>
+                            <h1>About Us</h1>
+                            <p>This is the about page of our Next.js app.</p>
+                          </div>
+                          )&#125;
+                        </code>
                       </Typography>
                     </Box>
                   </Paper>
