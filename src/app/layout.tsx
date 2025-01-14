@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>
-          David Mascia - Crafting Scalable Solutions, Driving Innovation,
+          David Mascia | Crafting Scalable Solutions, Driving Innovation,
           Delivering Impact.
         </title>
         <meta
