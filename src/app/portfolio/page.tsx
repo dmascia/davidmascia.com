@@ -69,7 +69,37 @@ export default function Home() {
             </Grid>
             <Grid size="12">
               <Typography variant="h4" component="h2">
-                Volume.com
+                Volume Media
+              </Typography>
+              <Typography variant="p" component="p">
+                Explore the innovative redesign of the Volume.com profile stream
+                page, crafted to deliver an intuitive and engaging user
+                experience. The new design highlights:
+                <br />
+                <br />• Enhanced Video Player: Stream videos with high-quality
+                options, complete with seamless Chromecast and Apple AirPlay
+                integration for versatile viewing across devices.
+                <br />• Interactive Chat Feature: A collapsible chat panel lets
+                you connect with other viewers while keeping the video in focus
+                or switch to full-screen mode for an immersive experience.
+                <br />• Dynamic Profile Integration: Scroll down effortlessly to
+                explore detailed user profiles, fostering connections and
+                community engagement right from the stream page.
+                <br />
+                <br />
+                This redesign prioritizes accessibility, performance, and user
+                satisfaction, making streaming and interaction smoother and more
+                enjoyable than ever.
+              </Typography>
+              <Image src={volume1} height="300" />
+              <br />
+              <Image src={volume2} height="300" />
+              <br />
+              <Image src={volume3} height="300" />
+            </Grid>
+            <Grid size="12">
+              <Typography variant="h4" component="h2">
+                CardCash.com
               </Typography>
               <Typography variant="p" component="p">
                 Explore the innovative redesign of the Volume.com profile stream
