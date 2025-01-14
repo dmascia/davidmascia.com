@@ -18,7 +18,7 @@ export default function RootLayout({
           David Mascia - Crafting Scalable Solutions, Driving Innovation,
           Delivering Impact.
         </title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="./myicon.ico"></link>
       </head>
       <body>
         <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
