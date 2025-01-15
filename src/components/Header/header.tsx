@@ -18,7 +18,7 @@ const pages = [
   { name: "Resume", uri: "/resume" },
   { name: "Services", uri: "/services" },
   { name: "Portfolio", uri: "/portfolio" },
-  { name: "Blog", uri: "/blog" },
+  { name: "Blog", uri: "https://medium.com/@davidmasciatutorials" },
 ];
 
 function Header() {
@@ -116,8 +116,8 @@ function Header() {
               }
               alt="David Mascia"
               sizes="100vw"
-              width="40"
-              height="40"
+              width="25"
+              height="25"
               style={{ borderRadius: "50px" }}
             />
           </Box>
