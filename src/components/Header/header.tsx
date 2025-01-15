@@ -18,7 +18,7 @@ const pages = [
   { name: "Resume", uri: "/resume" },
   { name: "Services", uri: "/services" },
   { name: "Portfolio", uri: "/portfolio" },
-  { name: "Blog", uri: "/blog" },
+  { name: "Blog", uri: "https://medium.com/@davidmasciatutorials" },
 ];
 
 function Header() {
