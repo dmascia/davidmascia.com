@@ -116,8 +116,8 @@ function Header() {
               }
               alt="David Mascia"
               sizes="100vw"
-              width="40"
-              height="40"
+              width="25"
+              height="25"
               style={{ borderRadius: "50px" }}
             />
           </Box>
