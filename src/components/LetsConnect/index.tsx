@@ -23,7 +23,7 @@ export default function LetsConnect() {
         <Link href="https://www.youtube.com/@davidmasciatutorials">
           <YouTubeIcon sx={{ color: red[500] }} fontSize="large" />
         </Link>
-        <Link href="https://www.youtube.com/@davidmasciatutorials">
+        <Link href="https://www.instagram.com/@davidmasciatutorials">
           <InstagramIcon fontSize="large" />
         </Link>
       </Stack>
