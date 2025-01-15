@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { red, grey } from "@mui/material/colors";
 import Typography from "@mui/material/Typography";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 export default function LetsConnect() {
   return (
@@ -21,6 +22,9 @@ export default function LetsConnect() {
         </Link>
         <Link href="https://www.youtube.com/@davidmasciatutorials">
           <YouTubeIcon sx={{ color: red[500] }} fontSize="large" />
+        </Link>
+        <Link href="https://www.youtube.com/@davidmasciatutorials">
+          <InstagramIcon fontSize="large" />
         </Link>
       </Stack>
     </>
