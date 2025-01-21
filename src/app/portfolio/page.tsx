@@ -22,38 +22,6 @@ import mobile1 from "./cardcash/mobile1.png";
 import mobile2 from "./cardcash/mobile2.png";
 import mobile3 from "./cardcash/mobile3.png";
 import premier from "./cardcash/premier.png";
-import {
-  // AppBar,
-  // Toolbar,
-  // Typography,
-  // Container,
-  // Grid,
-  Card,
-  CardContent,
-  CardActions,
-  Button,
-  // Avatar,
-  CardMedia,
-  // Box,
-  IconButton,
-} from "@mui/material";
-const projects = [
-  {
-    title: "Project 1",
-    description: "A brief description of project 1.",
-    image: "https://via.placeholder.com/400x200", // Replace with actual image URL
-  },
-  {
-    title: "Project 2",
-    description: "A brief description of project 2.",
-    image: "https://via.placeholder.com/400x200", // Replace with actual image URL
-  },
-  {
-    title: "Project 3",
-    description: "A brief description of project 3.",
-    image: "https://via.placeholder.com/400x200", // Replace with actual image URL
-  },
-];
 
 export default function Home() {
   return (
@@ -190,31 +158,7 @@ export default function Home() {
             </Grid>
           </Grid>
         </Box>
-        <Grid container spacing={3}>
-          {projects.map((project, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card>
-                <CardMedia
-                  component="img"
-                  height="140"
-                  image={project.image}
-                  alt={project.title}
-                />
-                <CardContent>
-                  <Typography variant="h6">{project.title}</Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {project.description}
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" href="#" target="_blank">
-                    View
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
+
         <Box pt={4}>
           <LetsConnect />
         </Box>
