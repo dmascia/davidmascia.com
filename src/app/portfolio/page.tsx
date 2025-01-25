@@ -22,6 +22,7 @@ import mobile1 from "./cardcash/mobile1.png";
 import mobile2 from "./cardcash/mobile2.png";
 import mobile3 from "./cardcash/mobile3.png";
 import premier from "./cardcash/premier.png";
+
 export default function Home() {
   return (
     <Layout>
@@ -157,6 +158,7 @@ export default function Home() {
             </Grid>
           </Grid>
         </Box>
+
         <Box pt={4}>
           <LetsConnect />
         </Box>

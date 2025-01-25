@@ -49,7 +49,7 @@ export default function Home() {
                   4x growth in users and an 80% revenue boost.
                   <br /> <br />
                   My expertise spans modern web technologies, including React,
-                  Redux, Django, and Docker, paired with a deep passion for
+                  Redux, Python, Django, Java, and Docker, paired with a deep passion for
                   fostering team collaboration and mentoring the next generation
                   of developers. <br /> <br />
                   Explore my website to see the projects I’ve brought to life
@@ -67,7 +67,7 @@ export default function Home() {
               <Box sx={{ display: { xs: "none", md: "flex" } }}>
                 <Image
                   src={
-                    "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_800_800/B4EZRNjlKuGwAc-/0/1736467961931?e=1742428800&v=beta&t=64e_qMWpJ4wzltQqKS2cb-jEyGgksRGP-KMjv2R_XKI"
+                    "https://media.licdn.com/dms/image/v2/D4E03AQEm1cvDKp7pWA/profile-displayphoto-shrink_400_400/B4EZSZuvBUGgAk-/0/1737745953251?e=1743033600&v=beta&t=pOX1T84BJnDXlzeq8YeqlX5avacRXjvy9xrTRpcmNOc"
                   }
                   alt="David Mascia"
                   sizes="100vw"
