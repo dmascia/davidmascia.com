@@ -43,6 +43,17 @@ export default function Home() {
                     </TimelineSeparator>
                     <TimelineContent>
                       {" "}
+                      Founder, Software Engineer, Mascia Solutions <br />
+                      JAN 2005 – Present
+                    </TimelineContent>
+                  </TimelineItem>
+                  <TimelineItem>
+                    <TimelineSeparator>
+                      <TimelineDot />
+                      <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                      {" "}
                       Lead Software Engineer, Volume Media <br />
                       SEP 2022 – OCT 2024
                     </TimelineContent>
@@ -72,22 +83,11 @@ export default function Home() {
                   <TimelineItem>
                     <TimelineSeparator>
                       <TimelineDot />
-                      <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
                       {" "}
                       Software Engineer (Contract), Digital Music Pool <br />
                       MAY 2008 – JUL 2012
-                    </TimelineContent>
-                  </TimelineItem>
-                  <TimelineItem>
-                    <TimelineSeparator>
-                      <TimelineDot />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                      {" "}
-                      Software Engineer, Focus Camera <br />
-                      JUL 2005 – APR 2008
                     </TimelineContent>
                   </TimelineItem>
                 </Timeline>
@@ -116,6 +116,20 @@ export default function Home() {
                       <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>Python3</TimelineContent>
+                  </TimelineItem>
+                  <TimelineItem>
+                    <TimelineSeparator>
+                      <TimelineDot />
+                      <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>Java</TimelineContent>
+                  </TimelineItem>
+                  <TimelineItem>
+                    <TimelineSeparator>
+                      <TimelineDot />
+                      <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>C</TimelineContent>
                   </TimelineItem>
                   <TimelineItem>
                     <TimelineSeparator>

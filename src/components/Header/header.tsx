@@ -41,7 +41,7 @@ function Header() {
           <Box sx={{ display: { xs: "none", md: "flex" }, mr: 2 }}>
             <Image
               src={
-                "https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_200_200/B4EZRNjlKuGwAY-/0/1736467961905?e=1742428800&v=beta&t=mpEMTbR1XMwL-FbpWN64zazmsIQe1htqZVbrPcdBCd8"
+                "https://media.licdn.com/dms/image/v2/D4E03AQEm1cvDKp7pWA/profile-displayphoto-shrink_400_400/B4EZSZuvBUGgAk-/0/1737745953251?e=1743033600&v=beta&t=pOX1T84BJnDXlzeq8YeqlX5avacRXjvy9xrTRpcmNOc"
               }
               alt="David Mascia"
               sizes="100vw"
