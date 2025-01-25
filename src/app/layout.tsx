@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>David Mascia | Software Engineer & Fullstack Developer</title>
+        <title>David Mascia | Software Engineer</title>
         <meta
           name="keywords"
           content="David Mascia, Software Engineer, Fullstack Developer, Programming Services, Web Development, React Developer, Next.js Expert, Python Developer, Django Backend, Mobile App Development, React Native Developer, Scalable Web Applications, Custom Web Development, Resume of Software Engineer, Developer Portfolio, Programming Services Keyport NJ, Hire Software Engineer, Senior Developer, UI/UX Optimization, Microservices Architecture, Backend Solutions, Frontend Developer, Freelance Web Developer, Software Engineer Portfolio, Resume Developer, Web App Developer, Tech Consultant, JavaScript Expert, TypeScript Developer, Fullstack Programming Services"
@@ -29,7 +29,7 @@ export default function RootLayout({
         />
         <meta
           property="og:image"
-          content="https://media.licdn.com/dms/image/v2/D4E03AQH2YwOvFWBL4A/profile-displayphoto-shrink_200_200/B4EZRNjlKuGwAY-/0/1736467961905?e=1742428800&v=beta&t=mpEMTbR1XMwL-FbpWN64zazmsIQe1htqZVbrPcdBCd8"
+          content="https://media.licdn.com/dms/image/v2/D4E03AQEm1cvDKp7pWA/profile-displayphoto-shrink_400_400/B4EZSZuvBUGgAk-/0/1737745953251?e=1743033600&v=beta&t=pOX1T84BJnDXlzeq8YeqlX5avacRXjvy9xrTRpcmNOc"
         />
         <meta property="og:url" content="https://www.davidmascia.com" />
         <meta property="og:type" content="website" />
@@ -37,7 +37,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="David Mascia | Software Engineer & Fullstack Developer"
+          content="David Mascia | Software Engineer"
         />
         <meta
           name="twitter:description"
