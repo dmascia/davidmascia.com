@@ -2,270 +2,170 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-12 text-black">
-      <h1 className="text-4xl font-bold mb-4">David Mascia</h1>
-      <p className="text-lg mb-6">
-        Senior Frontend Engineer — React | Next.js | Micro-Frontends
-      </p>
-      <div className="mb-8">
-        <a
-          className="text-blue-400 underline mr-4"
-          href="https://linkedin.com/in/davidmascia/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-        <a
-          className="text-blue-400 underline mr-4"
-          href="https://github.com/dmascia"
-          target="_blank"
-        >
-          GitHub
-        </a>
-      </div>
-
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-2">About Me</h2>
-        <p>
-          I'm a senior frontend engineer with 15+ years of experience building
-          high-scale, user-focused interfaces that are fast, accessible, and
-          impactful. I specialize in React, Next.js, and micro-frontend
-          architecture. From launching real-time apps to modularizing massive
-          frontend systems, I consistently deliver performance gains, faster
-          shipping cycles, and better user outcomes.
+    <main className="min-h-screen bg-gray-100 text-gray-900 p-8">
+      <section className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-10">
+        <h1 className="text-4xl font-bold text-center text-blue-700 mb-6">
+          Hire David Mascia
+        </h1>
+        <p className="text-lg text-center mb-4">
+          <a
+            href="https://www.linkedin.com/in/davidmascia/"
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://davidmascia.com/"
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Portfolio
+          </a>
         </p>
-      </section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-2">Core Skills</h2>
-        <ul className="list-disc ml-5">
-          <li>
-            React, Next.js, TypeScript, Redux, Webpack Module Federation,
-            TailwindCSS
-          </li>
-          <li>
-            Performance: Lighthouse 100s, Web Vitals, Lazy Loading, Code
-            Splitting
-          </li>
-          <li>Testing: Jest, React Testing Library, Playwright</li>
-          <li>Node.js, Express, AWS (S3, EC2, CloudFront), Docker, CI/CD</li>
-          <li>Mentorship, Tech Roadmaps, Agile/Scrum</li>
-        </ul>
-      </section>
-
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-2">Selected Projects</h2>
-        <div className="mb-4">
-          <h3 className="font-bold">Tech With Big D (2024 – Present)</h3>
+        <section className="my-6">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Professional Summary
+          </h2>
           <p>
-            Built AI-driven frontend tools with 100% Lighthouse accessibility.
-            Maintained internal design system using Storybook.
+            David Mascia is a Senior Backend Engineer with 15+ years of
+            experience architecting and scaling distributed systems. He
+            specializes in high-throughput APIs, real-time communication, and
+            cloud-native applications using Java 11, Python 3, Django, and
+            Spring Boot. David has led engineering teams and modernized
+            monolithic platforms into microservices, helping scale products from
+            startup to acquisition.
           </p>
-          <section className="max-w-4xl mx-auto px-6 py-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              🧠 Next.js AI Website Builder
-            </h2>
+        </section>
 
-            <div className="mb-6">
-              <p className="text-lg text-gray-700 mb-2">
-                <span className="font-semibold text-gray-900">Impact:</span> 40%
-                faster development cycles
-              </p>
-              <p className="text-lg text-gray-700">
-                <span className="font-semibold text-gray-900">Tech Stack:</span>{" "}
-                Next.js 14, AI APIs, Accessibility Automation
-              </p>
-            </div>
+        <section className="my-6">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Core Skills
+          </h2>
+          <ul className="grid grid-cols-2 gap-4 list-disc list-inside">
+            <li>Java 11 / Spring Boot</li>
+            <li>Python 3 / Django / Celery</li>
+            <li>Microservices & Distributed Systems</li>
+            <li>AWS & GCP Cloud Infrastructure</li>
+            <li>CI/CD with GitHub Actions & Docker</li>
+            <li>PostgreSQL / Redis / RabbitMQ</li>
+            <li>WebSockets & Real-time APIs</li>
+            <li>React / Next.js Frontend Integration</li>
+            <li>Node.js & Express.js</li>
+            <li>Native Mobile Application Integration</li>
+          </ul>
+        </section>
 
-            <div className="space-y-4 border-l-4 border-blue-600 pl-4 mb-8">
-              <div>
-                <h3 className="font-semibold text-blue-600">Highlights:</h3>
-              </div>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
+        <section className="my-6">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Recent Experience
+          </h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-xl font-bold">Founder – Tech With Big D</h3>
+              <p className="text-sm text-gray-600">
+                Nov 2024 – Present | Keyport, NJ
+              </p>
+              <ul className="list-disc list-inside ml-4">
                 <li>
-                  Pioneered AI-a11y auditor that auto-fixes WCAG issues (100%
-                  compliance).
+                  Built serverless platforms using Java 11, Python, AWS Lambda &
+                  DynamoDB
+                </li>
+                <li>
+                  Implemented GitHub Actions CI/CD with Docker and blue-green
+                  deployments
                 </li>
               </ul>
             </div>
-
-            <div className="flex flex-wrap gap-4">
-              <Link href="/case-studies/techwithbigd-ai-white-builder" passHref>
-                <span className="inline-block px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition text-sm font-medium cursor-pointer">
-                  View Case Study
-                </span>
-              </Link>
-            </div>
-          </section>
-        </div>
-        <div className="mb-4">
-          <h3 className="font-bold">Volume Media (2022 – 2024)</h3>
-          <p>
-            Migrated monolith to modular SSR in Next.js. Replaced jQuery with
-            React + Playwright E2E tests. Built real-time chat.
-          </p>
-          <section className="max-w-4xl mx-auto px-6 py-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              🧱 Monolith to Modular SSR Migration
-            </h2>
-
-            <div className="mb-6">
-              <p className="text-lg text-gray-700 mb-2">
-                <span className="font-semibold text-gray-900">Impact:</span> 75%
-                faster page loads (3.2s → 0.8s p95)
+            <div>
+              <h3 className="text-xl font-bold">
+                Lead Software Engineer – Volume Media
+              </h3>
+              <p className="text-sm text-gray-600">
+                Aug 2022 – Nov 2024 | Remote
               </p>
-              <p className="text-lg text-gray-700">
-                <span className="font-semibold text-gray-900">Tech Stack:</span>{" "}
-                Next.js, React 18, Module Federation, GCP
-              </p>
-            </div>
-
-            <div className="space-y-4 border-l-4 border-blue-600 pl-4 mb-8">
-              <div>
-                <h3 className="font-semibold text-blue-600">Highlights:</h3>
-              </div>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Next.js SSR + Module Federation for independent deploys</li>
-                <li>Used Web Workers for off-thread data processing</li>
-              </ul>
-            </div>
-
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/case-studies/volume-monolith-to-modular-ssr"
-                passHref
-              >
-                <span className="inline-block px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition text-sm font-medium cursor-pointer">
-                  View Case Study
-                </span>
-              </Link>
-            </div>
-          </section>
-        </div>
-        <div className="mb-4">
-          <h3 className="font-bold">CardCash (2015 – 2022)</h3>
-          <p>
-            Architected micro-frontends, rebuilt with React/Redux, scaled
-            partner portals. Launched React Native app and Storybook design
-            system.
-          </p>
-          <section className="max-w-4xl mx-auto px-6 py-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              🛒 CardCash Micro-Frontend E-Commerce Platform
-            </h2>
-
-            <div className="mb-6">
-              <p className="text-lg text-gray-700 mb-2">
-                <span className="font-semibold text-gray-900">Impact:</span>{" "}
-                Scaled to 4M users across 300+ brands including Uber and Amazon.
-              </p>
-              <p className="text-lg text-gray-700">
-                <span className="font-semibold text-gray-900">Tech Stack:</span>{" "}
-                React, Webpack Module Federation, Redux, Playwright.
-              </p>
-            </div>
-            <div className="space-y-4 border-l-4 border-blue-600 pl-4 mb-8">
-              <div>
-                <h3 className="font-semibold text-blue-600">Highlights:</h3>
-              </div>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <ul className="list-disc list-inside ml-4">
                 <li>
-                  Architected federated build system enabling 5+ teams to deploy
-                  independently —{" "}
-                  <span className="text-gray-900 font-medium">
-                    35% faster CI/CD
-                  </span>
-                  .
+                  Led team building real-time video streaming with GCP Media
+                  CDN, Django & Redis
                 </li>
                 <li>
-                  Designed cross-team design system with SSR support —{" "}
-                  <span className="text-gray-900 font-medium">
-                    reduced UI bugs by 70%
-                  </span>
-                  .
-                </li>
-                <li>
-                  Led RFC process for WebSocket → Server-Sent Events migration —{" "}
-                  <span className="text-gray-900 font-medium">
-                    22% higher transaction success
-                  </span>
-                  .
+                  Developed scalable APIs and mobile backend integration for
+                  Kotlin and Swift apps
                 </li>
               </ul>
             </div>
-
-            <div className="flex flex-wrap gap-4">
-              <Link href="/case-studies/cardcash-micro-frontends" passHref>
-                <span className="inline-block px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition text-sm font-medium cursor-pointer">
-                  View Case Study
-                </span>
-              </Link>
-            </div>
-          </section>
-        </div>
-        <div className="mb-4">
-          <h3 className="font-bold">Scivantage (2012 – 2015)</h3>
-          <p>
-            Led Angular migration, built real-time dashboards, achieved 100%
-            uptime across releases.
-          </p>
-          <section className="max-w-4xl mx-auto px-6 py-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              📈 Real-Time Trading Dashboard
-            </h2>
-
-            <div className="mb-6">
-              <p className="text-lg text-gray-700 mb-2">
-                <span className="font-semibold text-gray-900">Impact:</span>{" "}
-                {`Visualized $10B+ assets with <100ms latency using WebSocket streams`}
+            <div>
+              <h3 className="text-xl font-bold">
+                Lead Software Engineer, CardCash, inc (Acquired by RDE, Inc.)
+              </h3>
+              <p className="text-sm text-gray-600">
+                Jul 2015 – Aug 2022 | Brick, NJ / Remote
               </p>
-              <p className="text-lg text-gray-700">
-                <span className="font-semibold text-gray-900">Tech Stack:</span>{" "}
-                Angular, WebSockets, AWS CloudFront
-              </p>
-            </div>
-
-            <div className="space-y-4 border-l-4 border-blue-600 pl-4 mb-8">
-              <div>
-                <h3 className="font-semibold text-blue-600">Highlights:</h3>
-              </div>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Achieved 40% faster rendering vs legacy jQuery system.</li>
-                <li>Used Web Workers for off-thread data processing</li>
+              <ul className="list-disc list-inside ml-4">
+                <li>
+                  Migrated monolithic PHP system to microservices (Java 8,
+                  Python, Docker, AWS)
+                </li>
+                <li>
+                  Scaled revenue from $16M to $200M and led acquisition
+                  transition to RDE, Inc.
+                </li>
               </ul>
             </div>
-
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/case-studies/scivantage-Real-time-trading-dashboard"
-                passHref
-              >
-                <span className="inline-block px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition text-sm font-medium cursor-pointer">
-                  View Case Study
-                </span>
-              </Link>
+            <div>
+              <h3 className="text-xl font-bold">
+                Senior Software Engineer, Scivantage, inc (Acquired by
+                Refinitiv, Inc.)
+              </h3>
+              <p className="text-sm text-gray-600">
+                Sept 2012 – Jul 2015 | Jersey City, NJ
+              </p>
+              <ul className="list-disc list-inside ml-4">
+                <li>
+                  Engineered a secure Single Sign-On (SSO) system using Java,
+                  PHP5, and Oracle to support 3M+ users, enabling seamless
+                  access across services and playing a pivotal role in a $120M
+                  acquisition.
+                </li>
+              </ul>
             </div>
-          </section>
-        </div>
-        <div className="mb-4">
-          <h3 className="font-bold">
-            Beatmash / Digital Music Pool (2007 – 2012)
-          </h3>
-          <p>
-            Reduced mobile bounce by 35%, pioneered low-latency streaming using
-            HTML5.
-          </p>
-        </div>
-      </section>
+            <div>
+              <h3 className="text-xl font-bold">
+                Software Engineer, Beatmash, inc (Acquired by Digital Music
+                Pool, LLC.)
+              </h3>
+              <p className="text-sm text-gray-600">
+                July 2007 – Sept 2012 | Staten Island, NY
+              </p>
+              <ul className="list-disc list-inside ml-4">
+                <li>
+                  Built a low-latency streaming solution using PHP5 with AWS S3
+                  and CloudFront, handling 1M+ daily downloads and improving
+                  throughput by 50%, significantly enhancing user experience and
+                  platform scalability.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-2">Awards & Education</h2>
-        <ul className="list-disc ml-5">
-          <li>CardCash “Among the Best” (2017–2022)</li>
-          <li>Scivantage Project MVP (2014)</li>
-          <li>B.S. in Information Technology, Capella University (GPA: 3.6)</li>
-          <li>Google Cloud Skill Badge – Load Balancing (2024)</li>
-        </ul>
+        <section className="my-6">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Why Hire David?
+          </h2>
+          <p>
+            David blends startup agility with enterprise-grade scalability. His
+            work has driven performance gains of 60%, release velocity increases
+            of 40%, and supported millions of users with secure, low-latency
+            systems. He's ready to bring that experience to a high-impact
+            engineering team.
+          </p>
+        </section>
       </section>
     </main>
   );

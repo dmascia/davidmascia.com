@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "David Mascia Portfolio",
-  description: "David Mascia Portfolio",
+  title: "Hire David Mascia",
+  description: "Hire David Mascia",
 };
 
 const geist = Geist({
