@@ -18,12 +18,12 @@ export default function Page() {
           </a>{" "}
           |{" "}
           <a
-            href="https://davidmascia.com/"
+            href="https://github.com/dmascia"
             className="text-blue-600 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Portfolio
+            Github
           </a>
         </p>
 
